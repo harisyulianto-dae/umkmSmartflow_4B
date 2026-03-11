@@ -1,0 +1,8 @@
+Projek pertemuan2. php
+<?php
+echo "Projek Pertemuan 2 - UMKM SmartFlow";
+echo "<br>";
+echo "Nama : Haris Yulianto";
+echo "<br>";
+echo "Mata Kuliah : Pemrograman Web";
+?>
