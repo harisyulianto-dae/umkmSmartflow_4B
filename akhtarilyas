@@ -1,1 +1,22 @@
-
+1. Download Repository GitHub Menggunakan ZIP (Cara Paling Mudah)
+Metode ini adalah cara paling mudah karena tidak perlu install software tambahan.
+Langkah-langkah
+Buka situs https://github.com
+ di browser.
+Cari atau buka repository yang ingin kamu download.
+Repository adalah tempat penyimpanan project di GitHub.
+Di halaman repository, cari tombol Code berwarna hijau.
+Klik tombol tersebut.
+Pilih Download ZIP.
+File akan otomatis terdownload dalam bentuk .zip.
+Setelah selesai download, ekstrak file ZIP tersebut menggunakan:
+Windows: klik kanan → Extract All
+Android: gunakan file manager
+Mac: double klik file ZIP
+Kelebihan metode ini
+Sangat mudah
+ Tidak perlu install Git
+ Cocok untuk pemula
+Kekurangan
+ Tidak bisa update otomatis jika project diperbarui
+ Tidak bisa upload perubahan kembali ke GitHub
