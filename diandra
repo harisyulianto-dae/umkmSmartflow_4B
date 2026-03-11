@@ -1,1 +1,32 @@
+Pertemuan 1 –1. Buka Website Git
 
+Buka website resmi Git:
+https://git-scm.com
+
+2. Download Git
+Klik tombol Download for Windows
+File installer akan otomatis terdownload.
+
+3. Install Git
+Buka file Git-setup.exe yang sudah didownload
+Klik Next terus sampai selesai
+Klik Install
+
+4. Cek Instalasi
+Setelah selesai, buka Command Prompt / CMD lalu ketik:
+git --version
+Jika muncul versi Git, berarti Git sudah berhasil terinstall.
+Contoh output:
+git version 2.xx.x
+
+
+Cara Download Project dari GitHub
+Jika ingin mengambil project dari GitHub:
+1.Salin link repository GitHub
+2.Buka CMD / Git Bash
+3.Ketik:
+git clone link_repository
+
+Contoh:
+git clone https://github.com/username/umkmsmartflow.git
+Project akan otomatis terdownload ke komputer.
