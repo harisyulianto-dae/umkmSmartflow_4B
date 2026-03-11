@@ -1,0 +1,43 @@
+1. Pemilihan Model SDLC yang Digunakan
+Model Software Development Life Cycle (SDLC) yang digunakan dalam proyek ini adalah Agile.
+Model Agile dipilih karena metode ini memungkinkan proses pengembangan perangkat lunak dilakukan secara bertahap dan berulang (iteratif). Dengan pendekatan tersebut, tim pengembang dapat menyesuaikan sistem dengan kebutuhan pengguna yang mungkin berubah selama proses pengembangan.
+
+2. Alasan Pemilihan Model
+Beberapa alasan penggunaan model Agile pada proyek UMKM SmartFlow antara lain:
+Kebutuhan sistem pada UMKM dapat berubah mengikuti kebutuhan pengguna.
+Proses pengembangan dapat dilakukan secara bertahap melalui beberapa iterasi.
+Memudahkan tim dalam melakukan perbaikan maupun penambahan fitur baru.
+Proses pengembangan menjadi lebih fleksibel dan relatif lebih cepat dibandingkan model lainnya.
+Cocok digunakan untuk proyek dengan skala kecil hingga menengah seperti sistem manajemen UMKM.
+
+3. Diagram Tahapan SDLC pada Proyek
+Tahapan SDLC yang diterapkan dalam model Agile pada proyek UMKM SmartFlow adalah sebagai berikut:
+Perencanaan
+↓
+Analisis Kebutuhan
+↓
+Perancangan Sistem
+↓
+Pengembangan (Coding)
+↓
+Pengujian Sistem
+↓
+Implementasi
+↓
+Evaluasi / Perbaikan (Iterasi)
+
+4. Penjelasan Setiap Tahapan
+Perencanaan
+Tahap awal yang dilakukan dengan menentukan tujuan proyek, ruang lingkup sistem, serta fitur-fitur yang akan dikembangkan.
+Analisis Kebutuhan
+Pada tahap ini dilakukan identifikasi kebutuhan pengguna, seperti fitur pencatatan transaksi penjualan, pengelolaan stok barang, serta pembuatan laporan usaha.
+Perancangan Sistem
+Tahap ini meliputi pembuatan desain sistem, termasuk perancangan database, struktur aplikasi, dan tampilan antarmuka pengguna.
+Pengembangan (Coding)
+Proses pembuatan sistem dilakukan dengan menggunakan beberapa teknologi seperti HTML, CSS, JavaScript, PHP, dan MySQL.
+Pengujian Sistem
+Sistem yang telah dibuat kemudian diuji untuk memastikan semua fitur dapat berjalan dengan baik serta meminimalkan kesalahan atau bug.
+Implementasi
+Setelah sistem dinyatakan siap, aplikasi mulai digunakan oleh pengguna dalam kegiatan operasional.
+Evaluasi / Perbaikan
+Tahap terakhir yaitu melakukan evaluasi terhadap sistem yang telah digunakan, kemudian melakukan perbaikan maupun penambahan fitur berdasarkan masukan dari pengguna.
