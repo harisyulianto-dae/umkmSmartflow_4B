@@ -1,3 +1,27 @@
+Pertemuan 1 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
+
+Tujuan
+Mahasiswa memahami konsep dasar Rekayasa Perangkat Lunak (RPL) 
+serta mengetahui ruang lingkup proyek perangkat lunak yang akan dikerjakan selama satu semester.
+Selain itu, mahasiswa diharapkan mampu memahami proses perencanaan proyek, menentukan tema sistem 
+yang akan dibuat, serta mulai menggunakan alat pendukung seperti Git dan GitHub untuk pengelolaan proyek secara kolaboratif.
+
+Teori Singkat
+Rekayasa Perangkat Lunak (RPL) merupakan disiplin ilmu dalam bidang teknologi informasi yang membahas metode dan pendekatan 
+sistematis dalam proses pengembangan perangkat lunak. Proses ini mencakup tahap perencanaan, perancangan, pembuatan, pengujian,
+hingga pemeliharaan perangkat lunak. Tujuan utama dari RPL adalah menghasilkan perangkat lunak yang memiliki kualitas tinggi, efisien 
+dalam pengembangan, serta dapat digunakan dan dipelihara secara berkelanjutan sesuai kebutuhan pengguna.
+
+1. Nama Sistem
+UMKM SmartFlow – Sistem Otomasi Manajemen Usaha Berbasis Web
+2. Tujuan Sistem
+Tujuan dari sistem UMKM SmartFlow adalah membantu pelaku UMKM dalam mengelola usaha secara digital dengan menyediakan fitur pencatatan transaksi, pengelolaan stok barang, serta pembuatan laporan penjualan secara otomatis sehingga proses manajemen usaha menjadi lebih mudah, cepat, dan akurat.
+3. Target Pengguna
+Target pengguna dari sistem ini adalah:
+Pelaku Usaha Mikro, Kecil, dan Menengah (UMKM)
+Pemilik warung atau toko kelontong
+Pemilik online shop atau usaha kecil lainnya
+
 Langkah-Langkah Membuat Proyek Perangkat Lunak (UMKM SmartFlow)
 1. Menentukan Tema Proyek
 Pertama tentukan tema proyek yang akan dibuat.
@@ -28,3 +52,64 @@ Pemilik warung atau toko kelontong
 Pemilik online shop
 Usaha kecil yang belum menggunakan sistem digital
 
+5. Menentukan Fitur Sistem (Versi Sederhana)
+Agar proyek tidak terlalu besar, buat fitur dasar terlebih dahulu.
+Fitur utama:
+Login dan manajemen akun
+Input transaksi penjualan
+Manajemen produk dan stok
+Laporan penjualan harian dan bulanan
+Dashboard ringkasan usaha
+
+Langkah Membuat Repository Git
+
+6. Membuat Akun GitHub
+Buka website
+https://github.com⁠
+Klik Sign Up
+Masukkan:
+Email
+Username
+Password
+Verifikasi akun
+
+7. Membuat Repository Project
+Login ke GitHub
+Klik New Repository
+Isi data berikut:
+Pilih Public
+Centang Add README
+Klik Create Repository
+
+8. Membuat Folder Project di Laptop
+Buat folder project misalnya:
+UMKM-SmartFlow
+Struktur folder sederhana:
+UMKM-SmartFlow
+│
+├── index.html
+├── login.html
+├── dashboard.html
+│
+├── css
+│   └── style.css
+│
+├── js
+│   └── script.js
+│
+└── database
+    └── umkm.
+
+9. Inisialisasi Git di Project
+Buka terminal / Git Bash lalu masuk ke folder project.
+Perintah:
+git init
+
+10. Menghubungkan ke GitHub
+Copy link repository dari GitHub lalu jalankan:
+git remote add origin
+
+11. Upload Project ke GitHub
+git branch -M main
+git push -u origin main
+Jika berhasil maka project sudah tersimpan di GitHub.
