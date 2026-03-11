@@ -1,0 +1,49 @@
+Pertemuan 2 – Software Development Life Cycle (SDLC)
+Studi Kasus
+
+1. Pilih Model SDLC yang Sesuai dengan Proyek
+Model SDLC yang dipilih adalah Agile.
+Model Agile digunakan karena memungkinkan
+proses pengembangan perangkat lunak dilakukan
+secara bertahap (iteratif) dan fleksibel sehingga tim dapat
+menyesuaikan sistem dengan kebutuhan pengguna yang dapat berubah.
+
+  2. Alasan Pemilihan Model
+Alasan memilih model Agile pada proyek UMKM SmartFlow adalah:
+Kebutuhan sistem UMKM dapat berubah sesuai kebutuhan pengguna.
+Pengembangan dapat dilakukan secara bertahap melalui beberapa iterasi.
+Memudahkan tim dalam melakukan perbaikan dan penambahan fitur.
+Proses pengembangan lebih fleksibel dan cepat dibanding model lain.
+Cocok untuk proyek kecil hingga menengah seperti sistem manajemen UMKM.
+
+3. Diagram Tahapan SDLC Proyek
+Tahapan SDLC menggunakan Agile pada proyek UMKM SmartFlow:
+Perencanaan
+     ↓
+Analisis Kebutuhan
+     ↓
+Perancangan Sistem
+     ↓
+Pengembangan (Coding)
+     ↓
+Pengujian Sistem
+     ↓
+Implementasi
+     ↓
+Evaluasi / Perbaikan (Iterasi)
+
+Penjelasan tahapan:
+Perencanaan
+Menentukan tujuan proyek, ruang lingkup sistem, serta fitur yang akan dibuat.
+Analisis Kebutuhan
+Mengidentifikasi kebutuhan pengguna seperti pencatatan penjualan, manajemen stok, dan laporan usaha.
+Perancangan Sistem
+Membuat desain sistem seperti database, struktur aplikasi, dan tampilan antarmuka.
+Pengembangan (Coding)
+Mengembangkan sistem menggunakan teknologi seperti HTML, CSS, JavaScript, PHP, dan MySQL.
+Pengujian Sistem
+Melakukan pengujian untuk memastikan sistem berjalan dengan baik dan tidak terdapat kesalahan.
+Implementasi
+Sistem mulai digunakan oleh pengguna.
+Evaluasi / Perbaikan
+Melakukan perbaikan dan penambahan fitur berdasarkan masukan dari pengguna.
