@@ -1,1 +1,44 @@
+Software Requirement Specification (SRS)
 
+1. Pendahuluan
+
+Dokumen Software Requirement Specification (SRS) berisi kebutuhan sistem yang akan dikembangkan agar sesuai dengan kebutuhan pengguna.
+Contoh sistem yang dianalisis adalah Sistem Manajemen Tugas Mahasiswa yang digunakan untuk mencatat, melihat, dan mengelola tugas kuliah.
+
+⸻
+
+2. Identifikasi Stakeholder
+
+Stakeholder adalah pihak yang terlibat atau berkepentingan dengan sistem.
+	1.	Mahasiswa
+Menggunakan sistem untuk mencatat dan mengelola tugas.
+	2.	Dosen
+Memberikan tugas kepada mahasiswa.
+	3.	Administrator Sistem
+Mengelola sistem dan memastikan sistem berjalan dengan baik.
+
+⸻
+
+3. Kebutuhan Fungsional
+
+Kebutuhan fungsional adalah fitur yang harus dimiliki oleh sistem.
+	1.	Sistem dapat menambahkan data tugas.
+	2.	Sistem dapat menampilkan daftar tugas.
+	3.	Sistem dapat mengubah data tugas.
+	4.	Sistem dapat menghapus tugas.
+	5.	Sistem dapat menyimpan data tugas.
+	6.	Sistem dapat menampilkan status tugas (selesai / belum selesai).
+
+⸻
+
+4. Kebutuhan Non-Fungsional
+
+Kebutuhan non-fungsional berkaitan dengan kualitas sistem.
+	1.	Usability
+Sistem harus mudah digunakan oleh mahasiswa.
+	2.	Performance
+Sistem harus dapat menampilkan data dengan cepat.
+	3.	Security
+Data pengguna harus aman dan tidak dapat diakses oleh pihak yang tidak berwenang.
+	4.	Reliability
+Sistem harus berjalan dengan stabil tanpa sering mengalami error.
