@@ -1,1 +1,55 @@
+Studi Kasus SDLC
 
+1. Model SDLC yang Dipilih
+
+Model SDLC yang dipilih adalah Agile.
+
+⸻
+
+2. Alasan Memilih Model Agile
+
+Model Agile dipilih karena sistem yang akan dikembangkan memiliki kebutuhan yang sering berubah. Dengan metode Agile, pengembangan perangkat lunak dilakukan secara bertahap (iterasi) sehingga tim dapat menyesuaikan perubahan kebutuhan dengan cepat.
+
+Beberapa alasan memilih Agile:
+	1.	Fleksibel terhadap perubahan kebutuhan sistem.
+	2.	Pengembangan dilakukan secara bertahap (incremental).
+	3.	Memungkinkan komunikasi intensif antara tim dan pengguna.
+	4.	Setiap tahap menghasilkan versi sistem yang bisa langsung diuji.
+
+Metode ini sangat cocok untuk proyek yang belum memiliki kebutuhan yang benar-benar tetap.
+
+⸻
+
+3. Tahapan SDLC pada Model Agile
+
+Tahapan pengembangan proyek dengan model Agile:
+	1.	Planning
+Menentukan tujuan proyek, kebutuhan sistem, dan fitur yang akan dibuat.
+	2.	Design
+Membuat rancangan sistem seperti struktur program, database, dan tampilan.
+	3.	Development
+Programmer mulai membuat kode program sesuai desain.
+	4.	Testing
+Menguji fitur yang telah dibuat untuk memastikan tidak ada kesalahan.
+	5.	Release / Deployment
+Sistem dirilis agar dapat digunakan oleh pengguna.
+	6.	Feedback & Maintenance
+Mengumpulkan masukan dari pengguna dan melakukan perbaikan atau penambahan fitur.
+
+⸻
+
+4. Diagram Tahapan SDLC (Agile)
+
+Contoh diagram yang bisa kita buat di Draw.io / Lucidchart:
+Planning
+   ↓
+Design
+   ↓
+Development
+   ↓
+Testing
+   ↓
+Release
+   ↓
+Feedback / Maintenance
+   ↺ (kembali ke Planning jika ada perubahan)
