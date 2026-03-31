@@ -1,0 +1,50 @@
+SDLC (Software Development Life Cycle) adalah proses/tahapan yang digunakan untuk mengembangkan sistem atau perangkat lunak secara terstruktur agar hasilnya berkualitas dan sesuai kebutuhan.
+  Tahapan SDLC
+1. Perencanaan (Planning)
+Menentukan tujuan sistem, masalah yang ingin diselesaikan, dan ruang lingkup proyek.
+2. Analisis Kebutuhan (Analysis)
+Mengumpulkan kebutuhan pengguna (fitur apa saja yang dibutuhkan).
+3. Perancangan (Design)
+Mendesain sistem (tampilan, database, alur kerja).
+4. Implementasi (Coding)
+Membuat program sesuai desain menggunakan bahasa pemrograman.
+5. Pengujian (Testing)
+Mengecek apakah sistem berjalan dengan baik atau ada bug/error.
+6. Pemeliharaan (Maintenance)
+Perbaikan dan pengembangan setelah sistem digunakan.
+Studi Kasus: Sistem Penjualan Parfum
+
+Misalnya kamu membuat website penjualan parfum.
+
+1. Planning
+Masalah: Penjualan masih manual
+Tujuan: Membuat website agar pelanggan bisa beli parfum secara online
+2. Analysis
+Kebutuhan sistem:
+User bisa melihat daftar parfum
+User bisa login/register
+User bisa membeli produk
+Admin bisa mengelola produk
+3. Design
+UI: Halaman login, katalog parfum, keranjang
+Database:
+Tabel user
+Tabel produk
+Tabel transaksi
+4. Implementation
+Menggunakan HTML, CSS, JavaScript, PHP/MySQL
+Membuat fitur:
+Login
+Tambah ke keranjang
+Checkout
+5. Testing
+Cek login berhasil atau tidak
+Cek transaksi berjalan
+Perbaiki bug jika ada error
+6. Maintenance
+Update produk baru
+Perbaiki error dari pengguna
+Tambah fitur (misalnya diskon, review produk)
+Kesimpulan
+
+SDLC membantu pengembangan sistem menjadi lebih terstruktur, rapi, dan minim kesalahan, karena setiap tahap dilakukan secara sistematis dari awal sampai sistem digunakan.
