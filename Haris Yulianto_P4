@@ -1,0 +1,53 @@
+Studi Kasus
+1. Simulasi Wawancara dengan Pengguna
+Pewawancara (Developer):
+Bagaimana cara Anda mencatat transaksi saat ini?
+
+Pengguna (Pemilik UMKM):
+Saya masih mencatat di buku, kadang juga pakai Excel sederhana.
+
+Pewawancara:
+Apakah sering terjadi kesalahan dalam pencatatan?
+
+Pengguna:
+Iya, kadang salah hitung atau lupa mencatat.
+
+Pewawancara:
+Apakah Anda kesulitan dalam mengelola stok barang?
+
+Pengguna:
+Sering, karena tidak tahu stok habis atau tidak secara pasti.
+
+Pewawancara:
+Apakah Anda membutuhkan laporan penjualan?
+
+Pengguna:
+Sangat butuh, supaya tahu untung atau rugi.
+
+Pewawancara:
+Apakah Anda ingin sistem yang mudah digunakan?
+
+Pengguna:
+Iya, yang penting sederhana dan tidak ribet.
+
+2. Daftar Pertanyaan
+Berikut daftar pertanyaan yang digunakan dalam proses elicitation:
+ 1. Bagaimana proses pencatatan transaksi saat ini?
+ 2. Apa kendala yang sering dihadapi dalam pencatatan?
+ 3. Apakah Anda mengalami kesalahan dalam perhitungan?
+ 4. Bagaimana cara Anda mengelola stok barang?
+ 5. Apakah Anda membutuhkan laporan penjualan?
+ 6. Fitur apa saja yang Anda harapkan dari sistem?
+ 7. Apakah Anda pernah menggunakan aplikasi serupa?
+ 8. Seberapa penting kemudahan penggunaan sistem?
+ 9. Apakah sistem perlu bisa diakses melalui HP atau laptop?
+ 10. Apakah lebih suka tampilan sederhana atau lengkap?
+
+3. Ringkasan Hasil Elicitation
+Berdasarkan hasil wawancara, diperoleh beberapa kebutuhan utama:
+ > Pengguna masih menggunakan pencatatan manual sehingga sering terjadi kesalahan
+ > Pengguna membutuhkan sistem untuk mencatat transaksi secara otomatis
+ > Diperlukan fitur manajemen stok barang agar tidak terjadi kekurangan barang
+ > Pengguna membutuhkan laporan penjualan untuk mengetahui keuntungan
+ > Sistem harus mudah digunakan (user friendly)
+ > Sistem sebaiknya berbasis web agar bisa diakses kapan saja
