@@ -1,0 +1,64 @@
+Teknik Elicitation Kebutuhan
+
+1. Simulasi Wawancara dengan Pengguna
+
+Peran:
+	•	Analis Sistem
+	•	Mahasiswa (User)
+
+Dialog Wawancara:
+
+Analis: Apa kesulitan yang sering dialami dalam mengelola tugas?
+User: Saya sering lupa deadline tugas dan tugasnya banyak.
+
+Analis: Apakah Anda membutuhkan sistem untuk mencatat tugas?
+User: Iya, supaya semua tugas bisa terorganisir.
+
+Analis: Fitur apa yang paling penting menurut Anda?
+User: Tambah tugas, lihat tugas, dan pengingat deadline.
+
+Analis: Apakah perlu fitur status tugas?
+User: Iya, supaya tahu mana yang sudah selesai.
+
+Analis: Bagaimana dengan tampilan sistem?
+User: Yang sederhana dan mudah digunakan.
+
+⸻
+
+2. Daftar Pertanyaan Wawancara
+
+Berikut contoh pertanyaan untuk teknik elicitation:
+
+A. Pertanyaan Umum
+	1.	Apa masalah utama yang Anda hadapi saat ini?
+	2.	Bagaimana cara Anda mengelola tugas sekarang?
+
+B. Pertanyaan Fungsional
+	3.	Fitur apa saja yang Anda butuhkan?
+	4.	Apakah perlu fitur pengingat deadline?
+	5.	Apakah perlu fitur edit dan hapus tugas?
+
+C. Pertanyaan Non-Fungsional
+	6.	Bagaimana tampilan sistem yang Anda inginkan?
+	7.	Apakah sistem harus bisa diakses di HP?
+	8.	Seberapa cepat sistem harus merespon?
+
+⸻
+
+3. Ringkasan Hasil Elicitation
+
+Berdasarkan hasil wawancara, diperoleh kebutuhan sebagai berikut:
+
+Kebutuhan Fungsional:
+	•	Menambahkan tugas
+	•	Melihat daftar tugas
+	•	Mengedit tugas
+	•	Menghapus tugas
+	•	Menandai tugas selesai
+	•	Fitur pengingat deadline
+
+Kebutuhan Non-Fungsional:
+	•	Sistem harus mudah digunakan (user-friendly)
+	•	Sistem harus ringan dan cepat
+	•	Tampilan sederhana
+	•	Bisa diakses melalui perangkat mobile
