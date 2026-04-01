@@ -1,0 +1,60 @@
+# Software Development Life Cycle (SDLC)
+
+## Model SDLC yang Dipilih
+Agile (Scrum)
+
+## Alasan Pemilihan
+Model Agile dipilih karena:
+- Kebutuhan sistem dapat berubah sewaktu-waktu
+- Pengembangan dilakukan secara bertahap (iteratif)
+- Lebih fleksibel dibandingkan Waterfall
+- Cocok untuk proyek tim kecil/mahasiswa
+
+## Tahapan SDLC (Agile)
+
+1. **Perencanaan (Planning)**
+   - Menentukan fitur awal sistem
+   - Membuat backlog
+
+2. **Desain (Design)**
+   - Membuat desain UI/UX
+   - Menentukan struktur sistem
+
+3. **Pengembangan (Development)**
+   - Coding fitur
+   - Integrasi sistem
+
+4. **Pengujian (Testing)**
+   - Uji fungsi aplikasi
+   - Perbaikan bug
+
+5. **Deployment**
+   - Aplikasi siap digunakan
+
+6. **Maintenance**
+   - Update fitur
+   - Perbaikan berkelanjutan
+
+## Diagram SDLC
+
+Diagram Agile (iteratif):
+
+Planning → Design → Development → Testing → Deployment  
+          ↑________________________________________|
+
+(Siklus berulang / iterasi)
+
+## Studi Kasus
+
+### Permasalahan
+Tim mengalami kesulitan karena kebutuhan sistem sering berubah.
+
+### Solusi
+Menggunakan model Agile karena:
+- Mendukung perubahan kebutuhan
+- Iterasi cepat
+- Feedback pengguna lebih cepat
+
+## 🛠️ Tools
+- Draw.io / Lucidchart
+- GitHub untuk version control
