@@ -1,1 +1,47 @@
+Analisis Kebutuhan Perangkat Lunak
+ Tujuan
 
+Analisis kebutuhan bertujuan untuk mengidentifikasi kebutuhan pengguna agar sistem yang dikembangkan sesuai dengan harapan. Kebutuhan tersebut meliputi:
+Kebutuhan fungsional
+Kebutuhan non-fungsional
+Batasan sistem
+
+Bahan dan Alat
+Dokumen teks (Microsoft Word / Google Docs)
+Template SRS (Software Requirement Specification)
+
+Studi Kasus
+
+Sistem: Aplikasi Pemesanan Makanan Online
+
+ 1. Identifikasi Stakeholder
+
+Pihak-pihak yang terlibat dalam sistem:
+User (Pelanggan) → melakukan pemesanan makanan
+Admin → mengelola data sistem
+Owner (Pemilik Restoran) → memantau transaksi dan laporan
+
+2. Kebutuhan Fungsional
+
+Sistem harus mampu:
+Menyediakan fitur registrasi dan login pengguna
+Menampilkan daftar menu makanan
+Memungkinkan pengguna melakukan pemesanan
+Menyimpan data pesanan
+Menampilkan riwayat pesanan pengguna
+Admin dapat menambah, mengedit, dan menghapus menu
+Admin dapat mengelola data pesanan
+Sistem dapat menghasilkan laporan transaksi
+
+Dokumen SRS (Sederhana)
+5.1 Pendahuluan
+Dokumen ini menjelaskan kebutuhan sistem aplikasi pemesanan makanan online yang akan digunakan oleh pelanggan, admin, dan pemilik restoran.
+5.2 Deskripsi Umum
+Sistem ini dirancang untuk mempermudah proses pemesanan makanan secara online serta membantu pengelolaan data dan transaksi.
+5.3 Kebutuhan Sistem
+a. Kebutuhan Fungsional
+(sesuai daftar di atas)
+b. Kebutuhan Non-Fungsional
+(sesuai daftar di atas)
+5.4 Batasan Sistem
+(sesuai daftar di atas)
