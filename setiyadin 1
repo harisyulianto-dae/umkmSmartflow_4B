@@ -1,0 +1,26 @@
+# Proyek Rekayasa Perangkat Lunak
+
+## Nama Sistem
+Sistem Manajemen Tugas Mahasiswa
+
+## Tujuan Sistem
+Membantu mahasiswa dalam mengelola tugas kuliah secara terstruktur dan efisien.
+
+## Target Pengguna
+- Mahasiswa
+- Dosen (opsional)
+
+## Deskripsi Singkat
+Sistem ini memungkinkan pengguna untuk:
+- Menambahkan tugas
+- Melihat daftar tugas
+- Mengatur deadline
+
+## Tools yang Digunakan
+- Python
+- VS Code
+- Git & GitHub
+
+## Cara Menjalankan
+```bash
+python src/main.py
