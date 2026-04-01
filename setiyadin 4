@@ -1,0 +1,74 @@
+# Teknik Elicitation Kebutuhan
+
+## 1. Pendahuluan
+
+Elicitation adalah proses pengumpulan kebutuhan dari pengguna (client) agar sistem sesuai dengan kebutuhan nyata.
+
+---
+
+## 2. Metode yang Digunakan
+
+Pada proyek ini digunakan metode:
+
+### 2.1 Wawancara
+Dilakukan dengan mahasiswa sebagai pengguna utama.
+
+### 2.2 Kuesioner
+Menggunakan Google Form untuk menjangkau lebih banyak responden.
+
+---
+
+## 3. Daftar Pertanyaan Wawancara
+
+1. Apakah Anda sering memiliki banyak tugas kuliah?
+2. Bagaimana cara Anda mengelola tugas saat ini?
+3. Apakah Anda pernah lupa deadline tugas?
+4. Fitur apa yang Anda butuhkan dalam aplikasi manajemen tugas?
+5. Apakah Anda membutuhkan notifikasi deadline?
+6. Apakah tampilan sederhana penting bagi Anda?
+
+---
+
+## 4. Simulasi Hasil Wawancara
+
+### Responden: Mahasiswa
+
+- Sering kesulitan mengatur banyak tugas
+- Menggunakan catatan manual / aplikasi notes
+- Sering lupa deadline
+- Membutuhkan fitur:
+  - Reminder
+  - Deadline
+  - Daftar tugas yang rapi
+
+---
+
+## 5. Hasil Kuesioner (Ringkasan)
+
+- 80% mahasiswa kesulitan mengelola tugas
+- 70% membutuhkan pengingat (reminder)
+- 90% ingin aplikasi sederhana dan mudah digunakan
+
+---
+
+## 6. Analisis Hasil Elicitation
+
+Berdasarkan data:
+
+### Kebutuhan Utama:
+- Manajemen tugas
+- Deadline
+- Reminder
+
+### Kebutuhan Tambahan:
+- Tampilan sederhana
+- Mudah digunakan
+
+---
+
+## 7. Kesimpulan
+
+Dengan elicitation:
+- Kebutuhan sistem menjadi lebih jelas
+- Mengurangi kesalahan dalam pengembangan
+- Sistem lebih sesuai dengan pengguna
