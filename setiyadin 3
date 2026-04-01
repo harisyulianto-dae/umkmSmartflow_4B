@@ -1,0 +1,78 @@
+# Software Requirement Specification (SRS)
+
+## 1. Pendahuluan
+
+### 1.1 Tujuan
+Dokumen ini bertujuan untuk mendefinisikan kebutuhan sistem "Sistem Manajemen Tugas Mahasiswa".
+
+### 1.2 Lingkup Sistem
+Sistem ini digunakan untuk membantu mahasiswa dalam mengelola tugas kuliah secara efektif.
+
+---
+
+## 2. Stakeholder
+
+| Stakeholder | Peran |
+|------------|------|
+| Mahasiswa | Pengguna utama sistem |
+| Dosen | Memberikan tugas (opsional) |
+| Developer | Mengembangkan sistem |
+
+---
+
+## 3. Kebutuhan Fungsional
+
+Kode: FR (Functional Requirement)
+
+| Kode | Deskripsi |
+|------|----------|
+| FR-01 | Sistem dapat menambahkan tugas |
+| FR-02 | Sistem dapat menampilkan daftar tugas |
+| FR-03 | Sistem dapat menghapus tugas |
+| FR-04 | Sistem dapat mengedit tugas |
+| FR-05 | Sistem dapat menyimpan deadline |
+
+---
+
+## 4. Kebutuhan Non-Fungsional
+
+Kode: NFR (Non-Functional Requirement)
+
+| Kode | Deskripsi |
+|------|----------|
+| NFR-01 | Sistem mudah digunakan (user-friendly) |
+| NFR-02 | Sistem memiliki waktu respon cepat |
+| NFR-03 | Sistem dapat berjalan di berbagai OS |
+| NFR-04 | Data tersimpan dengan aman |
+
+---
+
+## 5. Batasan Sistem
+
+- Sistem berbasis CLI (Command Line Interface) pada tahap awal
+- Tidak menggunakan database (sementara)
+- Digunakan untuk skala kecil (mahasiswa)
+
+---
+
+## 6. Use Case Sederhana
+
+### Aktor:
+- Mahasiswa
+
+### Use Case:
+- Tambah tugas
+- Lihat tugas
+- Hapus tugas
+- Edit tugas
+
+---
+
+## 7. Studi Kasus
+
+### Permasalahan
+Sistem sering gagal karena kebutuhan tidak jelas.
+
+### Solusi
+- Mendefinisikan kebutuhan secara rinci melalui SRS
+- Melibatkan stakeholder dalam analisis
