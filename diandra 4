@@ -1,0 +1,62 @@
+Teknik Elicitation Kebutuhan
+1. Tujuan
+Mengumpulkan dan menganalisis kebutuhan client agar sistem sesuai dengan kebutuhan pengguna.
+
+2. Teori Singkat
+Elicitation adalah proses pengumpulan kebutuhan menggunakan:
+•	Wawancara (tanya jawab langsung) 
+•	Observasi (mengamati proses kerja) 
+•	Kuesioner (Google Form) 
+•	Studi dokumen (analisis data lama) 
+Tujuannya agar kebutuhan tidak berdasarkan asumsi.
+
+3. Bahan dan Alat
+•	Laptop / Dokumen 
+•	Google Form 
+•	Template wawancara 
+
+4. Permasalahan
+Sistem gagal karena developer tidak berkomunikasi dengan pengguna.
+
+5. Studi Kasus: Sistem Penjualan Online
+1. Stakeholder
+•	Owner 
+•	Admin 
+•	Customer 
+
+2. Simulasi Wawancara (Ringkas)
+•	Tujuan: mempermudah penjualan online 
+•	Pengguna: admin & customer 
+•	Fitur: produk, keranjang, pembayaran, laporan 
+•	Kendala: masih manual 
+•	Sistem: harus online & aman 
+
+3. Daftar Pertanyaan
+•	Apa tujuan sistem? 
+•	Siapa pengguna? 
+•	Fitur apa yang dibutuhkan? 
+•	Apa kendala saat ini? 
+•	Perlu online/offline? 
+•	Bagaimana keamanan? 
+
+4. Kuesioner (Contoh)
+•	Pernah belanja online? 
+•	Fitur penting? (produk, keranjang, pembayaran) 
+•	Perlu notifikasi? 
+•	Tampilan penting? 
+
+5. Hasil Elicitation
+Fungsional
+•	Login / registrasi 
+•	Katalog produk 
+•	Keranjang belanja 
+•	Checkout 
+•	Laporan 
+Non-Fungsional
+•	User friendly 
+•	Respon cepat 
+•	Aman 
+•	Online 24 jam 
+
+6. Kesimpulan
+Elicitation membantu memahami kebutuhan pengguna secara jelas sehingga sistem yang dibuat lebih tepat dan mengurangi kesalahan.
