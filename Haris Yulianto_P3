@@ -1,0 +1,55 @@
+Studi Kasus
+1. Identifikasi Stakeholder
+Stakeholder yang terlibat dalam sistem UMKM SmartFlow adalah:
+•	Pemilik UMKM → pengguna utama yang mengelola usaha
+•	Karyawan / Admin → membantu input data penjualan dan stok
+•	Pelanggan → pihak yang melakukan transaksi (tidak langsung menggunakan sistem)
+•	Developer → tim yang mengembangkan dan memelihara system
+
+2. Kebutuhan Fungsional dan Non-Fungsional
+A. Kebutuhan Fungsional
+Kebutuhan fungsional adalah fitur utama yang harus dimiliki sistem.
+•	Sistem dapat melakukan login dan logout pengguna
+•	Sistem dapat menambahkan, mengedit, dan menghapus data produk
+•	Sistem dapat mencatat transaksi penjualan
+•	Sistem dapat mengelola stok barang secara otomatis
+•	Sistem dapat menampilkan laporan penjualan harian dan bulanan
+•	Sistem dapat menampilkan dashboard ringkasan usaha
+B. Kebutuhan Non-Fungsional
+Kebutuhan non-fungsional berkaitan dengan kualitas sistem.
+•	Sistem mudah digunakan (user friendly)
+•	Sistem dapat diakses melalui browser (web-based)
+•	Waktu respon sistem cepat
+•	Data tersimpan dengan aman
+•	Sistem dapat digunakan oleh lebih dari satu pengguna
+•	Tampilan sederhana dan mudah dipahami
+C. Batasan Sistem
+•	Sistem hanya berbasis web (tidak mobile native)
+•	Fitur masih sederhana (MVP)
+•	Tidak menggunakan integrasi pembayaran online
+•	Digunakan untuk skala usaha kecil (UMKM)
+
+
+
+3. Dokumen Software Requirement Specification (SRS)
+Pendahuluan
+Sistem UMKM SmartFlow adalah aplikasi berbasis web yang digunakan untuk membantu pelaku UMKM dalam mengelola transaksi, stok barang, dan laporan usaha secara digital.
+Deskripsi Umum
+Sistem ini dirancang untuk mempermudah pengelolaan usaha kecil dengan menyediakan fitur pencatatan transaksi, manajemen produk, dan laporan usaha secara otomatis.
+Kebutuhan Sistem
+a. Kebutuhan Fungsional
+•	Login pengguna
+•	Manajemen produk
+•	Input transaksi
+•	Manajemen stok
+•	Laporan penjualan
+•	Dashboard
+b. Kebutuhan Non-Fungsional
+•	Mudah digunakan
+•	Berbasis web
+•	Aman dan cepat
+•	Multi-user sederhana
+Batasan Sistem
+•	Hanya untuk UMKM
+•	Fitur terbatas (versi sederhana)
+•	Tidak ada integrasi sistem eksternal
