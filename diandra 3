@@ -1,0 +1,51 @@
+Tujuan
+Mahasiswa mampu menganalisis kebutuhan client agar sistem yang dibuat sesuai dengan kebutuhan pengguna.
+Teori Singkat
+  
+Analisis kebutuhan adalah proses untuk mengidentifikasi:
+•	Kebutuhan fungsional → fitur yang harus ada dalam sistem 
+•	Kebutuhan non-fungsional → kualitas sistem (keamanan, performa, dll) 
+•	Batasan sistem → keterbatasan seperti teknologi, waktu, biaya 
+
+Bahan dan Alat
+•	Dokumen teks 
+•	Template SRS (Software Requirement Specification) 
+
+Contoh Permasalahan
+Sistem gagal digunakan karena kebutuhan pengguna tidak dianalisis dengan baik sejak awal.
+
+Studi Kasus (Contoh: Sistem Penjualan Online)
+1. Stakeholder
+•	Admin 
+•	Customer (pengguna) 
+•	Owner (pemilik bisnis) 
+
+2. Kebutuhan Fungsional
+•	User dapat registrasi dan login 
+•	User dapat melihat produk 
+•	User dapat melakukan pembelian 
+•	Admin dapat mengelola produk 
+•	Admin dapat melihat laporan penjualan 
+
+3. Kebutuhan Non-Fungsional
+•	Sistem harus mudah digunakan (user friendly) 
+•	Waktu respon cepat (< 3 detik) 
+•	Data aman (login dan enkripsi) 
+•	Sistem dapat diakses 24 jam 
+
+4. Batasan Sistem
+•	Dibuat menggunakan web (PHP / framework) 
+•	Menggunakan database MySQL 
+•	Akses internet diperlukan 
+
+5. SRS (Sederhana)
+Nama Sistem: Sistem Penjualan Online
+Tujuan: Memudahkan transaksi jual beli secara online
+Pengguna: Admin dan Customer
+Fitur Utama:
+•	Login / Register 
+•	Katalog produk 
+•	Keranjang belanja 
+•	Checkout 
+•	Laporan admin
+
