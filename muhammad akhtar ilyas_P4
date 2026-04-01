@@ -1,0 +1,32 @@
+Teknik Elicitation Kebutuhan
+ Tujuan
+Mahasiswa mampu mengumpulkan kebutuhan sistem secara langsung dari pengguna (client) dengan menggunakan teknik elicitation yang tepat, sehingga kebutuhan yang diperoleh akurat dan sesuai dengan kondisi nyata.
+
+Teori Singkat
+
+Elicitation adalah proses pengumpulan kebutuhan sistem dari pengguna atau stakeholder. Proses ini penting agar pengembang tidak hanya menebak kebutuhan, tetapi benar-benar memahami apa yang dibutuhkan.
+Beberapa teknik elicitation yang umum digunakan:
+Wawancara → bertanya langsung kepada pengguna untuk menggali kebutuhan
+Observasi → mengamati aktivitas pengguna secara langsung
+Kuesioner → mengumpulkan data dari banyak responden melalui pertanyaan tertulis
+Studi dokumen → menganalisis dokumen yang sudah ada sebagai referensi
+
+Simulasi Wawancara dengan Pengguna
+
+Pihak yang diwawancarai: Petugas perpustakaan
+Contoh hasil wawancara:
+Pengguna membutuhkan sistem untuk mempermudah pencatatan peminjaman buku
+Proses pencarian buku saat ini masih manual dan memakan waktu
+Dibutuhkan fitur laporan peminjaman
+
+Kebutuhan Fungsional:
+
+Sistem dapat mencatat peminjaman dan pengembalian buku
+Sistem menyediakan fitur pencarian buku
+Sistem dapat menampilkan laporan peminjaman
+
+Kebutuhan Non-Fungsional:
+
+Sistem mudah digunakan oleh petugas
+Waktu pencarian buku cepat
+Sistem dapat diakses secara online
