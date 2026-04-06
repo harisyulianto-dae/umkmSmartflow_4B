@@ -1,0 +1,56 @@
+Analisa kebutuhan perangkat lunak
+
+1.Identifikasi Stakeholder
+	•	Pemilik UMKM (user utama)
+	•	Karyawan/toko (admin sistem)
+	•	Developer (tim pengembang)
+	•	Pelanggan (tidak langsung, sebagai sumber data transaksi)
+
+2. Kebutuhan Fungsional
+	•	Sistem dapat melakukan login & logout pengguna
+	•	Sistem dapat menambah, mengedit, dan menghapus data produk
+	•	Sistem dapat mencatat transaksi penjualan
+	•	Sistem dapat mengelola stok barang secara otomatis
+	•	Sistem dapat menampilkan laporan penjualan
+	•	Sistem dapat menampilkan laporan keuangan
+	•	Sistem dapat menyimpan data ke database
+
+3.Kebutuhan Non-Fungsional
+	•	Sistem mudah digunakan (user friendly)
+	•	Sistem memiliki waktu respon cepat
+	•	Sistem dapat diakses melalui browser
+	•	Data tersimpan dengan aman
+	•	Sistem dapat berjalan di laptop dengan spesifikasi standar
+	•	Tampilan sederhana dan jelas
+
+4. Batasan Sistem
+	•	Sistem hanya berbasis web (tidak mobile app)
+	•	Tidak terintegrasi dengan pembayaran online
+	•	Hanya digunakan untuk skala UMKM kecil
+	•	Bahasa yang digunakan hanya Bahasa Indonesia
+
+1. Pendahuluan
+	•	Nama Sistem: UMKM SmartFlow
+	•	Tujuan: Membantu pengelolaan usaha UMKM secara digital
+
+2. Deskripsi Umum
+	•	Sistem berbasis web
+	•	Digunakan oleh pemilik usaha dan admin
+	•	Fokus pada pencatatan dan laporan usaha
+
+3. Kebutuhan Sistem
+
+a. Fungsional
+	•	Login user
+	•	Manajemen produk
+	•	Transaksi penjualan
+	•	Laporan keuangan
+
+b. Non-Fungsional
+	•	Mudah digunakan
+	•	Cepat dan ringan
+	•	Aman
+
+4. Batasan Sistem
+	•	Tidak support mobile app
+	•	Tidak ada integrasi payment gateway
