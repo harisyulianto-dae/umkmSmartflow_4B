@@ -1,0 +1,29 @@
+Model SDLC yang Dipilih
+	•	Agile (Scrum)
+
+1. Alasan Pemilihan Model
+	•	Kebutuhan sistem dapat berubah sewaktu-waktu
+	•	Fleksibel dalam pengembangan
+	•	Pengembangan dilakukan bertahap (iterasi)
+	•	Memungkinkan feedback cepat dari pengguna
+	•	Fitur bisa langsung digunakan meskipun belum selesai semua
+
+2. Tahapan SDLC (Agile)
+	•	Planning (Perencanaan awal fitur)
+	•	Product Backlog (Daftar kebutuhan sistem)
+	•	Sprint (Proses pengembangan bertahap)
+	•	Testing (Pengujian setiap fitur)
+	•	Review (Evaluasi bersama pengguna)
+	•	Iteration (Perbaikan dan pengembangan ulang)
+	•	Release (Peluncuran sistem)
+
+3. Contoh Penerapan pada UMKM SmartFlow
+	•	Sprint 1: Login & Register
+	•	Sprint 2: Input data produk
+	•	Sprint 3: Pencatatan penjualan
+	•	Sprint 4: Laporan keuangan
+
+4. Kesimpulan
+	•	Model Agile paling sesuai untuk proyek UMKM SmartFlow
+	•	Memudahkan pengembangan sistem secara bertahap
+	•	Lebih adaptif terhadap perubahan kebutuhan pengguna
