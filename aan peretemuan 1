@@ -1,0 +1,40 @@
+Tujuan Sistem:
+Sistem ini dibuat untuk membantu pelaku UMKM dalam mengelola usaha mereka secara digital dan lebih efisien.
+Fitur utamanya meliputi:
+	•	Pencatatan penjualan & keuangan
+	•	Manajemen stok barang
+	•	Laporan usaha otomatis
+	•	Monitoring performa bisnis
+
+Dengan sistem ini, UMKM bisa lebih terstruktur, hemat waktu, dan mengurangi kesalahan pencatatan manual
+ Target Pengguna
+	•	Pemilik UMKM (usaha kecil & menengah)
+	•	Pedagang online/offline
+	•	Pengusaha pemula
+	•	Toko kecil atau warung
+
+ Gambaran Masalah yang Diselesaikan
+
+Banyak UMKM masih:
+	•	Mencatat keuangan secara manual
+	•	Tidak punya laporan jelas
+	•	Sulit memantau stok barang
+	•	Kurang memahami kondisi bisnisnya
+
+UMKM SmartFlow hadir sebagai solusi digital sederhana dan mudah digunakan.
+Teknologi yang Digunakan (Opsional tapi bagus ditambahkan)
+	•	Frontend: HTML, CSS, JavaScript
+	•	Backend: (misal) PHP / Node.js
+	•	Database: MySQL
+	•	Tools: Git & GitHub
+
+Repository Git
+
+Langkah membuat repository:
+	1.	Buka GitHub
+	2.	Klik New Repository
+	3.	Isi nama: umkm-smartflow
+	4.	Tambahkan deskripsi:
+Sistem manajemen UMKM untuk pencatatan keuangan dan stok
+	5.	Pilih Public / Private
+	6.	Klik Create Repository
