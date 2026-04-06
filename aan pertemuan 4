@@ -1,0 +1,36 @@
+Teknik Elicitation yang Digunakan
+	•	Wawancara
+	•	Observasi
+	•	Kuesioner
+
+Simulasi Wawancara dengan Pengguna (Pemilik UMKM)
+ Profil Narasumber
+	•	Nama: Pemilik UMKM
+	•	Usaha: Toko kecil / warung
+	•	Masalah: Pencatatan masih manual
+
+Daftar Pertanyaan Wawancara
+	•	Bagaimana cara Anda mencatat penjualan saat ini?
+	•	Apakah Anda mengalami kesulitan dalam mengelola stok barang?
+	•	Apakah Anda membutuhkan laporan keuangan otomatis?
+	•	Seberapa sering Anda melakukan pengecekan stok?
+	•	Apakah Anda pernah menggunakan aplikasi sebelumnya?
+	•	Fitur apa yang paling Anda butuhkan dalam sistem ini?
+	•	Apakah Anda ingin sistem yang sederhana atau lengkap?
+	•	Apakah Anda membutuhkan akses melalui HP atau cukup laptop?
+
+ Hasil Elicitation (Ringkasan)
+	•	Pengguna masih menggunakan pencatatan manual (buku)
+	•	Sering terjadi kesalahan dalam menghitung penjualan
+	•	Kesulitan memantau stok barang
+	•	Membutuhkan laporan keuangan otomatis
+	•	Menginginkan sistem yang sederhana dan mudah digunakan
+	•	Lebih suka sistem berbasis web (bisa diakses kapan saja)
+
+ Kesimpulan
+	•	Sistem harus sederhana dan mudah digunakan
+	•	Harus ada fitur:
+	•	Pencatatan penjualan
+	•	Manajemen stok
+	•	Laporan keuangan
+	•	Sistem berbasis web lebih disukai pengguna
