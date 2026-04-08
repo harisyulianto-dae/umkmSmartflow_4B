@@ -1,0 +1,56 @@
+2. Use Case Description
+
+Berikut minimal 3 Use Case Description:
+
+1. Use Case: Login
+
+Nama Use Case: Login
+Aktor: Mahasiswa
+Deskripsi: Proses masuk ke dalam sistem
+
+Alur Utama:
+	1.	User membuka aplikasi
+	2.	User memasukkan username dan password
+	3.	Sistem memverifikasi data
+	4.	User berhasil masuk ke dashboard
+
+Alur Alternatif:
+	•	Jika data salah → sistem menampilkan pesan error
+
+
+2. Use Case: Tambah Tugas
+
+Nama Use Case: Tambah Tugas
+Aktor: Mahasiswa
+Deskripsi: Menambahkan tugas baru
+
+Alur Utama:
+	1.	User memilih menu tambah tugas
+	2.	User mengisi data tugas
+	3.	User menekan tombol simpan
+	4.	Sistem menyimpan data
+
+Alur Alternatif:
+	•	Jika data kosong → sistem menolak penyimpanan
+
+3. Use Case: Lihat Tugas
+
+Nama Use Case: Lihat Tugas
+Aktor: Mahasiswa
+Deskripsi: Menampilkan daftar tugas
+
+Alur Utama:
+	1.	User memilih menu lihat tugas
+	2.	Sistem menampilkan daftar tugas
+
+
+4. Use Case: Hapus Tugas (opsional tambahan biar lebih bagus)
+
+Nama Use Case: Hapus Tugas
+Aktor: Mahasiswa
+Deskripsi: Menghapus tugas
+
+Alur Utama:
+	1.	User memilih tugas
+	2.	User klik hapus
+	3.	Sistem menghapus data
