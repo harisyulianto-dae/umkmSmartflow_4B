@@ -1,0 +1,94 @@
+1. Pengertian
+Use Case Diagram adalah diagram UML yang digunakan untuk menggambarkan interaksi antara aktor (pengguna) dengan sistem.
+ Intinya:
+Menjelaskan “siapa melakukan apa di dalam sistem”
+
+2. Tujuan
+Memudahkan memahami sistem
+Menjelaskan fungsi sistem dari sudut pandang pengguna
+Menjadi dasar pembuatan sistem
+Sebagai dokumentasi interaksi pengguna
+3. Komponen Utama
+ Aktor
+Pihak yang menggunakan sistem
+Contoh: Mahasiswa, Admin
+
+Penjelasan:
+Aktor adalah pengguna luar sistem, bukan bagian dari sistem.
+
+Use Case
+Aktivitas yang dilakukan oleh aktor
+Digambarkan dengan bentuk oval
+
+ Contoh:
+Login
+Melihat Data
+Mengedit Profil
+
+ Penjelasan:
+Use case menunjukkan fitur atau layanan yang diberikan sistem
+
+ Relationship (Relasi)
+Hubungan antara aktor dan use case
+
+Jenis:
+
+Association → hubungan langsung
+Include → proses tambahan wajib
+Extend → proses tambahan opsional
+System Boundary
+Batas sistem (kotak besar)
+Berisi semua use case
+
+Penjelasan:
+Menunjukkan mana yang termasuk sistem dan mana yang di luar
+ Poin Penting Use Case Description
+1. Pengertian
+Use Case Description adalah penjelasan detail dari setiap use case.
+Intinya:
+Menjelaskan alur langkah-langkah dari suatu proses
+
+2. Tujuan
+Menjelaskan proses secara rinci
+Memudahkan developer memahami sistem
+Menghindari kesalahan saat implementasi
+3. Struktur Use Case Description
+ Nama Use Case
+Nama proses (contoh: Login)
+Aktor
+Siapa yang menjalankan proses
+ Deskripsi:
+Penjelasan singkat fungsi use case
+ Pre-condition
+
+Kondisi sebelum proses dimulai
+Contoh: user belum login
+
+Post-condition
+
+Kondisi setelah proses selesai
+Contoh: user berhasil login
+
+4. Alur Proses
+ Alur Utama (Main Flow)
+Langkah normal dari awal sampai selesai
+Alur Alternatif (Alternative Flow)
+Kondisi jika terjadi kesalahan atau pilihan lain
+ 
+Contoh:
+Data kosong
+Input salah
+ Contoh Singkat (Login)
+Use Case: Login
+Aktor: Mahasiswa
+Deskripsi: Masuk ke sistem
+Pre-condition: Belum login
+Post-condition: Berhasil masuk
+Alur Utama:
+Input nama & NIM
+Klik login
+Sistem validasi
+Masuk ke halaman utama
+Alur Alternatif:
+Jika kosong → error
+Jika salah → gagal login
