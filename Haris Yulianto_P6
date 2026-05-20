@@ -1,0 +1,17 @@
+Pertemuan 6 – Activity Diagram dan Business Process
+Studi Kasus: Activity Diagram untuk proses utama: Pembelian Produk (Checkout).
+(Buat diagram di Draw.io dengan alur berikut)
+1.	Start Node -> Pelanggan membuka halaman Katalog.
+2.	Action: Filter/Mencari Produk.
+3.	Decision: Produk ditemukan? (If No -> Kembali filter, If Yes -> Lanjut).
+4.	Action: Tambah Produk ke Keranjang.
+5.	Action: Buka Keranjang Belanja.
+6.	Decision: Ubah Kuantitas? (If Yes -> Update QTY, If No -> Lanjut).
+7.	Action: Klik "Pesan via WhatsApp".
+8.	Fork (Parallel Process):
+Branch 1: Generate pesan & Buka WhatsApp API.
+Branch 2: Simpan Data Pesanan ke Dashboard Admin.
+Branch 3: Kurangi Stok Produk.
+9.	Join -> Keranjang Di-reset Kosong.
+10.	End Node.
+
