@@ -1,0 +1,23 @@
+HARIS YULIANTO_2403015016_4B
+
+MODUL 7 – PERANCANGAN ARSITEKTUR PERANGKAT LUNAK
+
+Arsitektur yang digunakan adalah Client-Server.
+Terdiri dari:
+1. Presentation Layer (UI pengguna)
+2. Business Logic Layer (proses bisnis dan AI chatbot)
+3. Database Layer (penyimpanan data)
+
+Komponen:
+- Pelanggan
+- Website SmartFlo
+- AI Chatbot
+- Sistem Pemesanan
+- Database MySQL
+- Admin Panel
+
+Keunggulan:
+- Mudah dikembangkan
+- Aman
+- Mudah dipelihara
+- Mendukung integrasi AI
