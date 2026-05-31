@@ -1,0 +1,101 @@
+HARIS YULIANTO_2403015016
+
+Modul 5 - Use Case Diagram dan Use Case Description
+SmartFlo UMKM
+
+A. Deskripsi Sistem
+
+SmartFlo UMKM adalah sistem pemesanan produk UMKM berbasis AI Chatbot yang membantu pelanggan menemukan produk, melakukan pemesanan, pembayaran, serta memantau status pesanan secara online.
+
+B. Identifikasi Aktor
+
+1. Pelanggan
+   Pengguna yang melakukan pemesanan produk.
+
+2. Admin
+   Pengguna yang mengelola produk dan pesanan.
+
+3. AI Chatbot
+   Sistem yang membantu pelanggan memberikan rekomendasi produk.
+
+C. Use Case Diagram (Representasi Teks)
+
+Pelanggan:
+- Login
+- Lihat Produk
+- Chat AI
+- Pesan Produk
+- Pembayaran
+
+AI Chatbot:
+- Memberikan Rekomendasi Produk
+
+Admin:
+- Kelola Produk
+- Kelola Pesanan
+- Lihat Laporan
+
+D. Use Case Description 1 - Login
+
+Aktor: Pelanggan, Admin
+Tujuan: Masuk ke dalam sistem
+
+Alur Utama:
+1. Pengguna membuka halaman login.
+2. Pengguna memasukkan email.
+3. Pengguna memasukkan password.
+4. Sistem memverifikasi data.
+5. Sistem menampilkan dashboard.
+
+Alur Alternatif:
+1. Email atau password salah.
+2. Sistem menampilkan pesan kesalahan.
+
+E. Use Case Description 2 - Pemesanan Produk
+
+Aktor: Pelanggan
+Tujuan: Melakukan pemesanan produk
+
+Alur Utama:
+1. Pelanggan membuka katalog produk.
+2. Pelanggan memilih produk.
+3. Pelanggan menentukan jumlah produk.
+4. Pelanggan mengisi alamat pengiriman.
+5. Pelanggan mengirim pesanan.
+6. Sistem menyimpan pesanan.
+
+Alur Alternatif:
+1. Produk tidak tersedia.
+2. Sistem menampilkan notifikasi stok habis.
+
+F. Use Case Description 3 - Konsultasi AI Chatbot
+
+Aktor: Pelanggan
+Tujuan: Mendapatkan rekomendasi produk
+
+Alur Utama:
+1. Pelanggan membuka menu AI Chatbot.
+2. Pelanggan mengirim pertanyaan.
+3. AI memproses pertanyaan.
+4. AI memberikan rekomendasi produk.
+5. Pelanggan memilih produk yang direkomendasikan.
+
+Alur Alternatif:
+1. Pertanyaan tidak dikenali.
+2. AI meminta pelanggan mengulangi pertanyaan.
+
+G. Use Case Description 4 - Kelola Produk
+
+Aktor: Admin
+Tujuan: Mengelola data produk
+
+Alur Utama:
+1. Admin membuka menu produk.
+2. Admin menambahkan produk baru.
+3. Admin mengubah data produk.
+4. Admin menghapus produk.
+5. Sistem menyimpan perubahan.
+
+H. Kesimpulan
+
+Use Case Diagram digunakan untuk menggambarkan interaksi antara aktor dan sistem SmartFlo UMKM. Aktor utama terdiri dari Pelanggan, Admin, dan AI Chatbot. Use Case yang dibuat meliputi Login, Pemesanan Produk, Konsultasi AI Chatbot, dan Kelola Produk.
