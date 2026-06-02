@@ -1,0 +1,79 @@
+Aktor dalam Sistem
+Admin
+Pemilik UMKM
+Pelanggan
+Use Case Utama
+Login
+Kelola Produk
+Kelola Stok
+Kelola Pesanan
+Kelola Pelanggan
+Lihat Laporan Penjualan
+Logout
+Use Case Diagram (Deskripsi)
+
+Admin
+
+Login
+Kelola Produk
+Kelola Stok
+Kelola Pesanan
+Kelola Pelanggan
+
+Pemilik UMKM
+
+Login
+Melihat Dashboard
+Melihat Laporan Penjualan
+Logout
+
+Pelanggan
+
+Registrasi
+Login
+Melihat Produk
+Membuat Pesanan
+Melihat Status Pesanan
+Use Case Description
+1. Login
+
+Aktor: Admin, Pemilik, Pelanggan
+
+Tujuan: Masuk ke sistem.
+
+Alur Utama:
+
+Pengguna memasukkan username dan password.
+Sistem memverifikasi data.
+Sistem menampilkan dashboard.
+
+Hasil: Pengguna berhasil masuk.
+
+2. Kelola Produk
+
+Aktor: Admin
+
+Tujuan: Menambah, mengubah, dan menghapus produk.
+
+Alur Utama:
+
+Admin membuka menu produk.
+Admin memilih tambah/edit/hapus.
+Sistem menyimpan perubahan.
+
+Hasil: Data produk diperbarui.
+
+3. Membuat Pesanan
+
+Aktor: Pelanggan
+
+Tujuan: Memesan produk.
+
+Alur Utama:
+
+Pelanggan memilih produk.
+Pelanggan memasukkan jumlah pesanan.
+Sistem menghitung total harga.
+Sistem menyimpan pesanan.
+
+Hasil: Pesanan berhasil dibuat.
