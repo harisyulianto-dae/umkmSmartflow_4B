@@ -1,0 +1,64 @@
+Tujuan
+
+Menentukan struktur sistem UMKM SmartFlow secara keseluruhan.
+
+Arsitektur yang Dipilih
+
+Client-Server dengan MVC (Model View Controller)
+
+Diagram Arsitektur
+
++------------------+
+|      Client      |
+| Web / Mobile App |
++--------+---------+
+         |
+         v
++------------------+
+|   Controller     |
+| Mengatur Proses  |
++--------+---------+
+         |
+         v
++------------------+
+|      Model       |
+| Logika Bisnis    |
++--------+---------+
+         |
+         v
++------------------+
+|    Database      |
+| MySQL/PostgreSQL |
++------------------+
+
+Komponen Sistem
+View
+- Halaman Login
+- Dashboard
+- Produk
+- Pesanan
+- Laporan
+
+Controller
+- Login Controller
+- Produk Controller
+- Pesanan Controller
+- Laporan Controller
+
+Model
+- User
+- Produk
+- Pesanan
+- Pelanggan
+
+Database
+- Tabel User
+- Tabel Produk
+- Tabel Pesanan
+- Tabel Pelanggan
+
+Alasan Pemilihan
+- Mudah dikembangkan.
+- Pemisahan tampilan dan logika program.
+- Cocok untuk aplikasi UMKM berbasis web.
+- Mempermudah pemeliharaan sistem.
