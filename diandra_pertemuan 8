@@ -1,0 +1,66 @@
+Tujuan
+
+Merancang tampilan yang mudah digunakan oleh pengguna UMKM SmartFlow.
+
+Wireframe Minimal 5 Halaman
+1. Halaman Login
++----------------------+
+|     UMKM SmartFlow   |
++----------------------+
+| Username             |
+| [____________]       |
+| Password             |
+| [____________]       |
+|                      |
+| [ Login ]            |
++----------------------+
+
+2. Dashboard
++--------------------------------+
+| Dashboard                      |
++--------------------------------+
+| Total Produk : 120             |
+| Total Pesanan : 75             |
+| Pendapatan : Rp 15.000.000     |
++--------------------------------+
+
+3. Halaman Produk
++--------------------------------+
+| Data Produk                    |
++--------------------------------+
+| Nama | Harga | Stok | Aksi     |
++--------------------------------+
+| Kopi | 15000 | 100  | Edit     |
+| Teh  | 10000 | 80   | Edit     |
++--------------------------------+
+
+4. Halaman Pesanan
++--------------------------------+
+| Data Pesanan                   |
++--------------------------------+
+| ID | Pelanggan | Status        |
++--------------------------------+
+| 01 | Andi      | Diproses      |
+| 02 | Budi      | Selesai       |
++--------------------------------+
+
+5. Halaman Laporan
++--------------------------------+
+| Laporan Penjualan              |
++--------------------------------+
+| Harian  : Rp 500.000           |
+| Bulanan : Rp 15.000.000        |
+| Tahunan : Rp 180.000.000       |
++--------------------------------+
+
+Alur Navigasi
+Login
+  ↓
+Dashboard
+  ↓
++-----------------------+
+| Produk | Pesanan      |
+| Pelanggan | Laporan   |
++-----------------------+
+  ↓
+Logout
