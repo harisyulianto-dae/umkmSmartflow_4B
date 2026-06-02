@@ -1,0 +1,37 @@
+Tujuan
+
+Menggambarkan proses bisnis utama dalam UMKM SmartFlow.
+
+Proses Bisnis: Pemesanan Produk
+
+Start
+   ↓
+Pelanggan Login
+   ↓
+Lihat Produk
+   ↓
+Pilih Produk
+   ↓
+Masukkan Jumlah
+   ↓
+Sistem Cek Stok
+   ↓
+[Stok Tersedia?]
+   ↓ Ya
+Hitung Total Harga
+   ↓
+Simpan Pesanan
+   ↓
+Kurangi Stok
+   ↓
+Tampilkan Status Pesanan
+   ↓
+End
+
+Jika Tidak:
+Tampilkan Pesan Stok Habis
+   ↓
+End
+
+Activity Diagram menunjukkan urutan aktivitas yang terjadi mulai dari pelanggan login hingga pesanan berhasil diproses. 
+Diagram ini membantu pengembang memahami alur kerja sistem secara detail.
