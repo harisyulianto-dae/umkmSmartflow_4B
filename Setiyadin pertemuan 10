@@ -1,0 +1,64 @@
+MODUL 10 – IMPLEMENTASI PERANGKAT LUNAK
+
+A. Implementasi Fitur Login
+<?php
+$email = $_POST['email'];
+$password = $_POST['password'];
+
+if($email=="admin@gmail.com" && $password=="admin"){
+    echo "Login Berhasil";
+}else{
+    echo "Login Gagal";
+}
+?>
+
+B. Implementasi Fitur Pemesanan Produk
+<?php
+$sql = "INSERT INTO pesanan
+(id_user,tanggal_pesan,total_harga,status)
+VALUES
+('$id_user','$tanggal','$total','Menunggu')";
+?>
+
+C. Implementasi Fitur AI Chatbot
+<?php
+$pertanyaan = $_POST['chat'];
+
+if(strpos($pertanyaan,"kopi") !== false){
+    echo "Kami merekomendasikan Kopi Arabika Premium.";
+}else{
+    echo "Silakan jelaskan kebutuhan Anda.";
+}
+?>
+
+D. Struktur Folder
+SmartFlo
+│
+├── assets
+├── css
+├── js
+├── database
+│
+├── admin
+│   ├── dashboard.php
+│   ├── produk.php
+│   └── pesanan.php
+│
+├── user
+│   ├── katalog.php
+│   ├── chatbot.php
+│   └── checkout.php
+│
+├── config
+│   └── koneksi.php
+│
+└── index.php
+
+E. Fitur yang Berhasil Diimplementasikan
+Login pengguna.
+Registrasi pengguna.
+Pemesanan produk.
+Manajemen produk.
+Pembayaran.
+AI Chatbot.
+Dashboard admin.
