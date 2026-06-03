@@ -1,0 +1,43 @@
+
+# Pertemuan 12 – Pengujian Perangkat Lunak
+
+## Pengertian
+Pengujian perangkat lunak adalah proses untuk memastikan bahwa aplikasi berjalan sesuai kebutuhan dan bebas dari kesalahan (bug).
+
+## Tujuan
+- Menemukan error pada sistem.
+- Memastikan fitur berjalan dengan baik.
+- Meningkatkan kualitas perangkat lunak.
+- Memastikan sistem siap digunakan.
+
+## Jenis Pengujian
+
+### Black Box Testing
+Menguji fungsi sistem berdasarkan input dan output tanpa melihat kode program.
+
+### White Box Testing
+Menguji logika dan struktur kode program.
+
+### Unit Testing
+Menguji fungsi atau komponen program secara terpisah.
+
+## Studi Kasus: Pengujian Fitur Login
+
+| No | Skenario | Hasil yang Diharapkan |
+|----|----------|----------------------|
+| 1 | Username dan Password benar | Login berhasil |
+| 2 | Password salah | Login gagal |
+| 3 | Kolom kosong | Muncul pesan validasi |
+
+### Contoh Kode
+
+```php
+if($username == "admin" && $password == "12345"){
+    echo "Login Berhasil";
+}else{
+    echo "Login Gagal";
+}
+```
+
+## Kesimpulan
+Pengujian perangkat lunak merupakan tahap penting dalam pengembangan sistem untuk memastikan aplikasi berjalan sesuai kebutuhan, mengurangi kesalahan, dan meningkatkan kualitas perangkat lunak sebelum digunakan oleh pengguna.
