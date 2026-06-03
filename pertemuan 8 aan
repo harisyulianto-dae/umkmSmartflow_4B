@@ -1,0 +1,15 @@
+Pertemuan 8 – Perancangan Antarmuka (UI/UX)
+Studi Kasus: Aplikasi Pemesanan Tiket Bioskop
+Wireframe yang Dibuat
+Halaman Login
+Halaman Beranda
+Halaman Daftar Film
+Halaman Pemesanan Tiket
+Halaman Pembayaran
+Alur Navigasi
+Login → Beranda → Pilih Film → Pilih Kursi → Pembayaran → Tiket Digital
+Prinsip UI/UX
+Tombol mudah ditemukan.
+Warna konsisten.
+Navigasi sederhana.
+Responsif di HP dan Laptop.
