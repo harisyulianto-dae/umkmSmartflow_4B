@@ -1,0 +1,13 @@
+Tahap ini berfokus pada penerjemahan desain sistem menjadi aplikasi yang dapat dijalankan sesuai kebutuhan pengguna.
+
+Implementasi pada UMKM SmartFlow:
+
+* Pengembangan fitur manajemen produk
+* Pengembangan fitur transaksi penjualan
+* Implementasi perhitungan diskon secara otomatis
+* Pembuatan laporan penjualan sederhana
+* Integrasi aplikasi dengan database MySQL menggunakan Python atau PHP
+
+Output:
+
+* Aplikasi UMKM SmartFlow yang berfungsi sesuai rancangan
