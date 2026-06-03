@@ -1,0 +1,42 @@
+Pertemuan 6 – Activity Diagram dan Business Process
+Tujuan
+
+Menggambarkan alur kegiatan utama pada sistem yang akan dibuat agar pengguna memahami proses penggunaan sistem.
+
+Studi Kasus
+
+Sistem Manajemen Tugas Mahasiswa
+
+Proses Utama: Menambahkan Tugas
+Alur Aktivitas
+Mahasiswa membuka aplikasi Sistem Manajemen Tugas.
+Mahasiswa melakukan login menggunakan username dan password.
+Sistem memverifikasi data login.
+Setelah berhasil login, mahasiswa masuk ke halaman dashboard.
+Mahasiswa memilih menu Tambah Tugas.
+Mahasiswa mengisi data tugas berupa:
+Judul Tugas
+Deskripsi Tugas
+Deadline
+Sistem melakukan validasi data yang dimasukkan.
+Jika data belum lengkap, sistem menampilkan pesan kesalahan dan meminta pengguna melengkapi data.
+Jika data sudah lengkap, sistem menyimpan data ke database.
+Sistem menampilkan notifikasi bahwa tugas berhasil ditambahkan.
+Mahasiswa dapat melihat tugas yang telah tersimpan pada daftar tugas.
+Proses selesai.
+Business Process
+Aktor
+Mahasiswa
+Input
+Judul Tugas
+Deskripsi Tugas
+Deadline
+Proses
+Login
+Mengisi data tugas
+Validasi data
+Penyimpanan data
+Output
+Data tugas tersimpan dalam sistem
+Notifikasi berhasil ditampilkan
+Daftar tugas diperbarui
