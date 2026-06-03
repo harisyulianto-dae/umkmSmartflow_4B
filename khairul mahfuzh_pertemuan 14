@@ -1,0 +1,110 @@
+Pertemuan 14 – Presentasi dan Evaluasi Proyek
+Tujuan
+
+Mempresentasikan hasil proyek kepada client atau stakeholder serta melakukan evaluasi terhadap sistem yang telah dibangun.
+
+Studi Kasus
+Proyek: Sistem Manajemen Tugas Mahasiswa
+Deskripsi Singkat
+
+Sistem Manajemen Tugas Mahasiswa merupakan aplikasi yang membantu mahasiswa dalam mengelola tugas kuliah, mulai dari menambahkan tugas, melihat daftar tugas, hingga memantau deadline tugas.
+
+Materi Presentasi Proyek
+Slide 1 – Judul Proyek
+
+SISTEM MANAJEMEN TUGAS MAHASISWA
+
+Disusun Oleh:
+
+Muhammad Khairul Mahfuzh
+NIM: 2403015038
+
+Mata Kuliah:
+Rekayasa Perangkat Lunak (RPL)
+
+Slide 2 – Latar Belakang
+Permasalahan
+Mahasiswa sering lupa deadline tugas.
+Tugas kuliah sulit dikelola jika masih menggunakan catatan manual.
+Tidak ada sistem yang membantu mengorganisir tugas secara terstruktur.
+Solusi
+
+Membangun Sistem Manajemen Tugas Mahasiswa yang dapat membantu pencatatan dan pengelolaan tugas secara digital.
+
+Slide 3 – Analisis Kebutuhan
+Stakeholder
+Mahasiswa
+Admin
+Kebutuhan Fungsional
+Login
+Tambah Tugas
+Lihat Tugas
+Logout
+Kebutuhan Non-Fungsional
+Mudah digunakan
+Cepat diakses
+Aman
+Slide 4 – Perancangan Sistem
+UML yang Digunakan
+Use Case Diagram
+Activity Diagram
+Class Diagram
+Arsitektur Sistem
+
+Menggunakan Model View Controller (MVC).
+
+Slide 5 – Basis Data
+Tabel Mahasiswa
+id_mahasiswa
+nim
+nama
+email
+password
+Tabel Tugas
+id_tugas
+judul_tugas
+deskripsi
+deadline
+status
+id_mahasiswa
+
+Relasi:
+
+Satu Mahasiswa memiliki banyak Tugas (1:N)
+Slide 6 – Implementasi Sistem
+Fitur yang Berhasil Dibuat
+Login
+Tambah Tugas
+Lihat Tugas
+Logout
+
+Bahasa Pemrograman:
+
+Python
+
+Tools:
+
+VS Code
+Git
+GitHub
+Slide 7 – Demo Sistem
+Langkah Demo
+Menjalankan aplikasi.
+Login ke sistem.
+Menambahkan tugas baru.
+Menampilkan daftar tugas.
+Logout dari sistem.
+Contoh Output
+=== SISTEM MANAJEMEN TUGAS ===
+
+1. Tambah Tugas
+2. Lihat Tugas
+3. Keluar
+Evaluasi Proyek
+1. Kesesuaian Kebutuhan
+Hasil Evaluasi
+Kebutuhan	Status
+Login	Sesuai
+Tambah Tugas	Sesuai
+Lihat Tugas	Sesuai
+Logout	Sesuai
