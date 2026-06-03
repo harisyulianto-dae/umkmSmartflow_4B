@@ -1,0 +1,30 @@
+Pertemuan 10 – Implementasi Perangkat Lunak
+Studi Kasus: Fitur Login Sistem Rental Mobil
+Source Code PHP
+
+<?php
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+if($username == "admin" && $password == "12345"){
+    echo "Login Berhasil";
+}else{
+    echo "Login Gagal";
+}
+
+?>
+Fitur yang Dibuat
+Login
+Logout
+Dashboard Admin
+Struktur Folder
+Plain text
+project
+│
+├── assets
+├── css
+├── js
+├── pages
+├── database
+└── index.php
