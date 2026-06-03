@@ -1,0 +1,10 @@
+Tahap ini mengubah desain sistem menjadi program yang dapat dijalankan.
+
+Penerapan pada UMKM SmartFlow:
+-Fitur manajemen produk
+-Fitur transaksi penjualan
+-Perhitungan diskon otomatis
+-Laporan penjualan sederhana
+-Koneksi database MySQL dengan Python/PHP
+
+Output: Aplikasi UMKM SmartFlow yang dapat digunakan.
