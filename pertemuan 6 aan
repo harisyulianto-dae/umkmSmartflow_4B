@@ -1,0 +1,17 @@
+Pertemuan 6 – Activity Diagram dan Business Process
+Studi Kasus: Proses Reservasi Lapangan Futsal
+Start Node → Pelanggan membuka website.
+Melihat daftar lapangan.
+Memilih jadwal yang tersedia.
+Decision: Jadwal tersedia?
+No → Pilih jadwal lain.
+Yes → Lanjut.
+Mengisi data pemesan.
+Memilih metode pembayaran.
+Fork:
+Sistem membuat invoice.
+Sistem menyimpan data reservasi.
+Sistem mengurangi slot jadwal.
+Join.
+Menampilkan bukti reservasi.
+End Node.
