@@ -1,0 +1,20 @@
+Pertemuan 7 – Perancangan Arsitektur Perangkat Lunak
+Studi Kasus: Sistem Informasi Perpustakaan Digital
+Arsitektur Client-Server
+Client Layer
+Browser pengguna
+Mobile App
+Application Layer
+Login Service
+Peminjaman Buku Service
+Pengembalian Buku Service
+Database Layer
+Data Buku
+Data Anggota
+Data Peminjaman
+Alur
+User → Web Browser → Server → Database
+Alasan Pemilihan
+Mudah dikembangkan.
+Data tersimpan terpusat.
+Keamanan lebih baik.
