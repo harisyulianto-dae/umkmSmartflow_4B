@@ -1,0 +1,16 @@
+Pada tahap ini dilakukan perancangan basis data untuk menyimpan dan mengelola seluruh informasi sistem secara terstruktur. Proses perancangan menggunakan Entity Relationship Diagram (ERD) serta normalisasi data untuk mengurangi redundansi dan menjaga konsistensi data.
+
+Implementasi pada UMKM SmartFlow:
+
+* Merancang tabel Produk
+* Merancang tabel Kategori
+* Merancang tabel Pelanggan
+* Merancang tabel Transaksi
+* Merancang tabel Detail Transaksi
+* Menentukan hubungan antar tabel menggunakan Primary Key dan Foreign Key
+
+Output:
+
+* Entity Relationship Diagram (ERD)
+* Class Diagram
+* Desain database MySQL
