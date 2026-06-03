@@ -1,0 +1,14 @@
+Tahap pengujian dilakukan untuk memastikan seluruh fitur sistem berjalan sesuai spesifikasi dan bebas dari kesalahan yang dapat mengganggu penggunaan aplikasi.
+
+Implementasi pada UMKM SmartFlow:
+
+* Pengujian fitur login pengguna
+* Pengujian fitur tambah, ubah, dan hapus data produk
+* Pengujian proses transaksi penjualan
+* Pengujian perhitungan diskon otomatis
+* Pengujian fitur laporan penjualan
+
+Output:
+
+* Dokumen test case
+* Laporan hasil pengujian sistem
