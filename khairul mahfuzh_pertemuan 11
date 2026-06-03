@@ -1,0 +1,108 @@
+Pertemuan 11 – Version Control dan Kolaborasi Tim
+Tujuan
+
+Memahami penggunaan Git dan GitHub untuk mengelola perubahan kode serta mendukung kolaborasi dalam tim pengembang.
+
+Studi Kasus
+
+Proyek: Sistem Manajemen Tugas Mahasiswa
+
+Dalam tim terdapat 2 anggota:
+
+Anggota 1 mengerjakan fitur Login
+Anggota 2 mengerjakan fitur Manajemen Tugas
+
+Untuk menghindari konflik kode, setiap anggota bekerja pada branch masing-masing.
+
+1. Membuat Repository Git
+
+Inisialisasi Git pada project:
+
+git init
+
+Menghubungkan project ke GitHub:
+
+git remote add origin https://github.com/username/sistem-manajemen-tugas.git
+2. Membuat Branch
+
+Melihat branch yang tersedia:
+
+git branch
+
+Membuat branch baru untuk fitur login:
+
+git branch fitur-login
+
+Pindah ke branch tersebut:
+
+git checkout fitur-login
+
+Atau menggunakan perintah singkat:
+
+git checkout -b fitur-login
+3. Melakukan Perubahan dan Commit
+
+Setelah menambahkan kode fitur login:
+
+Melihat status file:
+
+git status
+
+Menambahkan file ke staging area:
+
+git add .
+
+Melakukan commit:
+
+git commit -m "Menambahkan fitur login"
+
+Contoh hasil commit:
+
+[fitur-login] Menambahkan fitur login
+4. Push Branch ke GitHub
+git push origin fitur-login
+
+Branch fitur-login sekarang sudah tersimpan di GitHub.
+
+5. Merge Branch
+
+Kembali ke branch utama:
+
+git checkout main
+
+Menggabungkan branch fitur-login ke main:
+
+git merge fitur-login
+
+Contoh hasil:
+
+Updating 1a2b3c..4d5e6f
+Fast-forward
+ login.py | 20 ++++++++++++++++++++
+6. Push Hasil Merge
+git push origin main
+Alur Kolaborasi Tim
+Setiap anggota membuat branch sendiri.
+Mengerjakan fitur masing-masing.
+Melakukan commit perubahan.
+Push branch ke GitHub.
+Melakukan merge ke branch utama (main).
+Push hasil merge ke repository.
+Contoh Riwayat Branch
+main
+ │
+ ├── fitur-login
+ │       │
+ │       └── Commit: Menambahkan fitur login
+ │
+ └── fitur-tugas
+         │
+         └── Commit: Menambahkan fitur manajemen tugas
+
+Setelah merge:
+
+main
+ │
+ ├── fitur-login ✓
+ │
+ └── fitur-tugas ✓
