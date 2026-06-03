@@ -1,0 +1,81 @@
+Pertemuan 12 – Pengujian Perangkat Lunak
+Tujuan
+
+Melakukan pengujian terhadap fitur yang telah dibuat untuk memastikan sistem berjalan sesuai kebutuhan dan bebas dari kesalahan.
+
+Studi Kasus
+
+Sistem Manajemen Tugas Mahasiswa
+
+Fitur yang diuji:
+
+Tambah Tugas
+Lihat Daftar Tugas
+1. Test Case
+Test Case 1 – Tambah Tugas Berhasil
+Item	Keterangan
+ID Test	TC-001
+Nama Fitur	Tambah Tugas
+Tujuan	Memastikan data tugas dapat disimpan
+Input	Judul: Praktikum RPL, Deskripsi: Tugas UML, Deadline: 20-06-2026
+Langkah Pengujian	Pilih menu Tambah Tugas lalu isi data
+Hasil yang Diharapkan	Data tersimpan dan muncul pesan berhasil
+Status	Berhasil
+Test Case 2 – Tambah Tugas dengan Data Kosong
+Item	Keterangan
+ID Test	TC-002
+Nama Fitur	Tambah Tugas
+Tujuan	Memastikan sistem menolak input kosong
+Input	Judul kosong
+Langkah Pengujian	Isi form tanpa judul tugas
+Hasil yang Diharapkan	Muncul pesan error
+Status	Berhasil
+Test Case 3 – Lihat Daftar Tugas
+Item	Keterangan
+ID Test	TC-003
+Nama Fitur	Lihat Tugas
+Tujuan	Memastikan daftar tugas tampil
+Input	Klik menu Lihat Tugas
+Langkah Pengujian	Pilih menu Lihat Tugas
+Hasil yang Diharapkan	Daftar tugas ditampilkan
+Status	Berhasil
+Test Case 4 – Lihat Tugas Saat Data Kosong
+Item	Keterangan
+ID Test	TC-004
+Nama Fitur	Lihat Tugas
+Tujuan	Memastikan sistem memberikan informasi jika belum ada tugas
+Input	Klik menu Lihat Tugas tanpa data
+Langkah Pengujian	Pilih menu Lihat Tugas
+Hasil yang Diharapkan	Muncul pesan "Belum ada tugas"
+Status	Berhasil
+2. Hasil Pengujian
+No	Fitur	Hasil
+1	Tambah Tugas	Berhasil
+2	Validasi Input Kosong	Berhasil
+3	Lihat Daftar Tugas	Berhasil
+4	Informasi Data Kosong	Berhasil
+3. Metode Pengujian yang Digunakan
+Black Box Testing
+
+Pengujian dilakukan dengan melihat input dan output tanpa memperhatikan kode program.
+
+Contoh:
+
+Menginput data tugas.
+Memeriksa apakah data tersimpan dan ditampilkan.
+Unit Testing
+
+Pengujian dilakukan pada setiap fungsi program secara terpisah.
+
+Contoh:
+
+Fungsi tambah_tugas()
+Fungsi lihat_tugas()
+White Box Testing
+
+Pengujian dilakukan dengan memeriksa logika program dan alur kode.
+
+Contoh:
+
+Memeriksa percabangan saat data kosong.
+Memeriksa proses penyimpanan data.
