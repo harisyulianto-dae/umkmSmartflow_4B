@@ -1,0 +1,34 @@
+
+# Pertemuan 13 – Dokumentasi dan Deployment
+
+## Pengertian
+Dokumentasi adalah proses pencatatan seluruh informasi terkait sistem yang telah dibuat. Deployment adalah proses menempatkan aplikasi agar dapat digunakan oleh pengguna.
+
+## Tujuan
+- Memudahkan pemeliharaan sistem.
+- Membantu pengguna memahami cara menggunakan aplikasi.
+- Menyediakan referensi bagi pengembang.
+- Memastikan aplikasi dapat diakses dan digunakan.
+
+## Dokumentasi Sistem
+Dokumentasi yang dibuat meliputi:
+- Deskripsi sistem.
+- Diagram UML.
+- Struktur database.
+- Panduan penggunaan aplikasi.
+
+## Deployment
+Tahapan deployment:
+1. Menyiapkan source code.
+2. Mengunggah aplikasi ke server/hosting.
+3. Menghubungkan database.
+4. Melakukan pengujian sistem secara online.
+
+## Contoh Platform Deployment
+- Netlify
+- Vercel
+- Railway
+- InfinityFree
+
+## Kesimpulan
+Dokumentasi dan deployment merupakan tahap penting agar sistem dapat dipahami, dikelola, dan digunakan oleh pengguna dengan baik.
