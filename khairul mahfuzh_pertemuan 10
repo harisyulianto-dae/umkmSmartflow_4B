@@ -1,0 +1,114 @@
+Pertemuan 10 – Implementasi Perangkat Lunak (Coding)
+Tujuan
+
+Mengimplementasikan hasil perancangan sistem ke dalam kode program yang terstruktur dan mudah dipahami.
+
+Studi Kasus
+
+Sistem Manajemen Tugas Mahasiswa
+
+Fitur Utama yang Diimplementasikan
+Tambah Tugas
+Lihat Daftar Tugas
+Struktur Folder Project
+sistem-manajemen-tugas/
+│
+├── main.py
+├── models/
+│   └── tugas.py
+│
+├── services/
+│   └── tugas_service.py
+│
+└── data/
+    └── tugas.txt
+1. File models/tugas.py
+class Tugas:
+    def __init__(self, judul, deskripsi, deadline):
+        self.judul = judul
+        self.deskripsi = deskripsi
+        self.deadline = deadline
+
+    def tampilkan(self):
+        print("\nJudul      :", self.judul)
+        print("Deskripsi  :", self.deskripsi)
+        print("Deadline   :", self.deadline)
+2. File services/tugas_service.py
+from models.tugas import Tugas
+
+daftar_tugas = []
+
+def tambah_tugas():
+    judul = input("Judul Tugas : ")
+    deskripsi = input("Deskripsi   : ")
+    deadline = input("Deadline    : ")
+
+    tugas = Tugas(judul, deskripsi, deadline)
+    daftar_tugas.append(tugas)
+
+    print("\nTugas berhasil ditambahkan!")
+
+def lihat_tugas():
+    if len(daftar_tugas) == 0:
+        print("\nBelum ada tugas.")
+        return
+
+    print("\n=== DAFTAR TUGAS ===")
+
+    for i, tugas in enumerate(daftar_tugas, start=1):
+        print(f"\nTugas {i}")
+        tugas.tampilkan()
+3. File main.py
+from services.tugas_service import tambah_tugas, lihat_tugas
+
+while True:
+    print("\n========================")
+    print("SISTEM MANAJEMEN TUGAS")
+    print("========================")
+    print("1. Tambah Tugas")
+    print("2. Lihat Tugas")
+    print("3. Keluar")
+
+    pilihan = input("Pilih Menu : ")
+
+    if pilihan == "1":
+        tambah_tugas()
+
+    elif pilihan == "2":
+        lihat_tugas()
+
+    elif pilihan == "3":
+        print("Program selesai.")
+        break
+
+    else:
+        print("Menu tidak tersedia.")
+Cara Menjalankan Program
+Buka VS Code atau IDE lainnya.
+Buat folder sesuai struktur di atas.
+Simpan setiap file pada folder yang sesuai.
+Jalankan perintah:
+python main.py
+Contoh Output
+
+SISTEM MANAJEMEN TUGAS
+
+1. Tambah Tugas
+2. Lihat Tugas
+3. Keluar
+
+Pilih Menu : 1
+
+Judul Tugas : Praktikum RPL
+Deskripsi   : Membuat Project SDLC
+Deadline    : 20 Juni 2026
+
+Tugas berhasil ditambahkan!
+Pilih Menu : 2
+
+=== DAFTAR TUGAS ===
+
+Tugas 1
+Judul      : Praktikum RPL
+Deskripsi  : Membuat Project SDLC
+Deadline   : 20 Juni 2026
