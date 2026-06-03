@@ -1,0 +1,28 @@
+MODUL 12 – PENGUJIAN PERANGKAT LUNAK
+A. Tujuan Pengujian
+Pengujian dilakukan untuk memastikan semua fitur berjalan sesuai kebutuhan dan bebas dari kesalahan sebelum digunakan pengguna.
+
+B. Metode Pengujian
+Black Box Testing
+Pengujian berdasarkan input dan output tanpa melihat kode program.
+Unit Testing
+Pengujian setiap fungsi secara terpisah.
+
+C. Test Case
+| No | Skenario    | Input                  | Hasil Diharapkan | Status |
+| -- | ----------- | ---------------------- | ---------------- | ------ |
+| 1  | Login Benar | Email & Password Valid | Berhasil Login   | Valid  |
+| 2  | Login Salah | Password Salah         | Pesan Error      | Valid  |
+
+Pengujian Pemesanan
+| No | Skenario     | Input        | Hasil Diharapkan  | Status |
+| -- | ------------ | ------------ | ----------------- | ------ |
+| 1  | Pesan Produk | Data Lengkap | Pesanan Tersimpan | Valid  |
+| 2  | Data Kosong  | Form Kosong  | Pesan Error       | Valid  |
+
+Pengujian AI Chatbot
+| No | Skenario     | Input             | Hasil Diharapkan   | Status |
+| -- | ------------ | ----------------- | ------------------ | ------ |
+| 1  | Tanya Produk | "Saya ingin kopi" | Rekomendasi Produk | Valid  |
+D. Hasil Pengujian
+Seluruh fitur utama berjalan dengan baik sesuai kebutuhan pengguna.
