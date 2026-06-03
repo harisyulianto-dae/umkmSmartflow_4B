@@ -1,0 +1,12 @@
+Pada tahap ini digunakan sistem version control untuk mengelola perubahan kode program dan mempermudah kolaborasi antar anggota tim pengembang.
+
+Implementasi pada UMKM SmartFlow:
+
+* Pembuatan repository Git
+* Pengelolaan branch untuk setiap fitur
+* Melakukan commit terhadap perubahan kode
+* Menggabungkan hasil pekerjaan tim melalui proses merge
+
+Output:
+
+* Riwayat pengembangan proyek yang terdokumentasi dan terorganisir dengan baik
