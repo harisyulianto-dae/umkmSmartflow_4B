@@ -1,0 +1,125 @@
+Pertemuan 9 – Perancangan Basis Data
+Tujuan
+
+Merancang basis data yang mendukung Sistem Manajemen Tugas Mahasiswa agar data tersimpan dengan baik, tidak terjadi duplikasi, dan mudah dikelola.
+
+Studi Kasus
+
+Sistem Manajemen Tugas Mahasiswa
+
+1. ERD (Entity Relationship Diagram)
+
+Karena tidak menggunakan gambar, ERD dapat dijelaskan sebagai berikut:
+
+Entitas Mahasiswa
+
+Memiliki data mahasiswa yang menggunakan sistem.
+
+Atribut:
+
+id_mahasiswa (Primary Key)
+nim
+nama
+email
+password
+Entitas Tugas
+
+Menyimpan data tugas yang dimiliki mahasiswa.
+
+Atribut:
+
+id_tugas (Primary Key)
+judul_tugas
+deskripsi
+deadline
+status
+id_mahasiswa (Foreign Key)
+Relasi
+Mahasiswa (1) -------- (N) Tugas
+
+Artinya:
+
+Satu mahasiswa dapat memiliki banyak tugas.
+Satu tugas hanya dimiliki oleh satu mahasiswa.
+2. Tabel dan Atribut
+Tabel Mahasiswa
+Nama Atribut	Tipe Data	Keterangan
+id_mahasiswa	INT	Primary Key
+nim	VARCHAR(15)	Nomor Induk Mahasiswa
+nama	VARCHAR(100)	Nama Mahasiswa
+email	VARCHAR(100)	Email
+password	VARCHAR(255)	Password
+Tabel Tugas
+Nama Atribut	Tipe Data	Keterangan
+id_tugas	INT	Primary Key
+judul_tugas	VARCHAR(100)	Judul Tugas
+deskripsi	TEXT	Deskripsi Tugas
+deadline	DATE	Batas Waktu
+status	VARCHAR(20)	Status Tugas
+id_mahasiswa	INT	Foreign Key
+3. Relasi Antar Tabel
+Mahasiswa → Tugas
+1 Mahasiswa
+     |
+     |
+     | memiliki
+     |
+     V
+Banyak Tugas
+
+Jenis relasi:
+One To Many (1:N)
+
+4. Class Diagram
+Class Mahasiswa
+Mahasiswa
+--------------------
+-id_mahasiswa
+-nim
+-nama
+-email
+-password
+--------------------
++login()
++logout()
++lihatTugas()
+Class Tugas
+Tugas
+--------------------
+-id_tugas
+-judul_tugas
+-deskripsi
+-deadline
+-status
+--------------------
++tambahTugas()
++editTugas()
++hapusTugas()
+Hubungan Class
+Mahasiswa
+    1
+    |
+    |
+    | memiliki
+    |
+    N
+Tugas
+5. SQL Pembuatan Tabel
+CREATE TABLE mahasiswa (
+    id_mahasiswa INT AUTO_INCREMENT PRIMARY KEY,
+    nim VARCHAR(15) NOT NULL,
+    nama VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE tugas (
+    id_tugas INT AUTO_INCREMENT PRIMARY KEY,
+    judul_tugas VARCHAR(100) NOT NULL,
+    deskripsi TEXT,
+    deadline DATE,
+    status VARCHAR(20),
+    id_mahasiswa INT,
+    FOREIGN KEY (id_mahasiswa)
+    REFERENCES mahasiswa(id_mahasiswa)
+);
