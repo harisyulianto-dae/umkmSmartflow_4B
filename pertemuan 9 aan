@@ -1,0 +1,30 @@
+Pertemuan 9 – Perancangan Basis Data
+Studi Kasus: Sistem Rental Mobil
+Entitas =
+Pelanggan
+id_pelanggan
+nama
+no_hp
+
+Mobil=
+id_mobil
+merk
+harga_sewa
+Transaksi
+id_transaksi
+id_pelanggan
+id_mobil
+tanggal_sewa
+
+Relasi=
+Pelanggan (1) → (M) Transaksi
+Mobil (1) → (M) Transaksi
+
+Contoh Query=
+
+SQL
+CREATE TABLE pelanggan (
+id_pelanggan INT PRIMARY KEY,
+nama VARCHAR(100),
+no_hp VARCHAR(15)
+);
