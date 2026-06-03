@@ -1,0 +1,52 @@
+MODUL 13 – DOKUMENTASI DAN DEPLOYMENT
+
+A. Dokumentasi Pengguna
+Cara Login
+Buka halaman login.
+Masukkan email.
+Masukkan password.
+Klik tombol Login.
+Cara Memesan Produk
+Buka katalog produk.
+Pilih produk.
+Klik Pesan.
+Isi formulir.
+Lakukan pembayaran.
+Cara Menggunakan AI Chatbot
+Buka menu chatbot.
+Ketik pertanyaan.
+Sistem memberikan jawaban dan rekomendasi.
+
+B. Dokumentasi Teknis
+Bahasa Pemrograman
+PHP
+JavaScript
+HTML
+CSS
+Database
+MySQL
+Tools
+VS Code
+GitHub
+Draw.io
+
+C. Simulasi Deployment
+Developer
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+Hosting Server
+    │
+    ▼
+Website SmartFlo Online
+    │
+    ▼
+User Access
+
+D. Pemeliharaan Sistem
+Backup database berkala.
+Update keamanan sistem.
+Monitoring performa server.
+Perbaikan bug.
