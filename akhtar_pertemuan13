@@ -1,0 +1,13 @@
+Pada tahap ini disusun dokumentasi sistem serta dilakukan persiapan agar aplikasi dapat digunakan oleh pengguna akhir.
+
+Implementasi pada UMKM SmartFlow:
+
+* Penyusunan panduan penggunaan aplikasi
+* Dokumentasi struktur dan desain database
+* Dokumentasi kode program
+* Deployment aplikasi ke lingkungan localhost atau hosting
+
+Output:
+
+* Manual penggunaan sistem
+* Aplikasi yang siap dioperasikan
