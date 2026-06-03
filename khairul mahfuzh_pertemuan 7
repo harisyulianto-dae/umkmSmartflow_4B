@@ -1,0 +1,68 @@
+Pertemuan 7 – Perancangan Arsitektur Perangkat Lunak
+Tujuan
+
+Menjelaskan struktur sistem yang akan dikembangkan agar mudah dipahami, dikembangkan, dan dipelihara.
+
+Studi Kasus
+
+Sistem Manajemen Tugas Mahasiswa
+
+1. Arsitektur Sistem yang Dipilih
+
+Saya memilih Arsitektur MVC (Model-View-Controller).
+
+Alasan Pemilihan MVC
+Memisahkan tampilan, logika program, dan data.
+Kode program lebih terstruktur dan mudah dipelihara.
+Memudahkan pengembangan fitur baru.
+Cocok untuk aplikasi berbasis web maupun desktop.
+Memudahkan kerja tim karena setiap bagian memiliki tugas masing-masing.
+2. Penjelasan Komponen Arsitektur
+Model
+
+Berfungsi mengelola data dan berinteraksi dengan database.
+
+Contoh:
+
+Data Mahasiswa
+Data Tugas
+Data Deadline
+View
+
+Berfungsi menampilkan informasi kepada pengguna.
+
+Contoh:
+
+Halaman Login
+Dashboard
+Halaman Daftar Tugas
+Controller
+
+Berfungsi menghubungkan View dan Model serta mengatur proses bisnis aplikasi.
+
+Contoh:
+
+Menyimpan tugas baru
+Menghapus tugas
+Menampilkan daftar tugas
+3. Arsitektur Sistem
+Lapisan Presentasi (View)
+
+Digunakan oleh mahasiswa untuk berinteraksi dengan sistem melalui tampilan aplikasi.
+
+Lapisan Logika Bisnis (Controller)
+
+Mengolah permintaan pengguna dan menjalankan aturan bisnis sistem.
+
+Lapisan Data (Model & Database)
+
+Menyimpan seluruh data tugas dan informasi pengguna.
+
+4. Alur Kerja Sistem
+Mahasiswa membuka aplikasi.
+Mahasiswa melakukan login.
+Sistem menerima permintaan dari pengguna.
+Controller memproses permintaan.
+Model mengambil atau menyimpan data ke database.
+Hasil proses dikirim kembali ke View.
+Informasi ditampilkan kepada pengguna.
