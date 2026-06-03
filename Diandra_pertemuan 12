@@ -1,0 +1,9 @@
+Tahap ini memastikan seluruh fitur berjalan sesuai kebutuhan dan bebas dari kesalahan.
+Penerapan pada UMKM SmartFlow:
+-Pengujian login pengguna
+-Pengujian tambah/edit/hapus produk
+-Pengujian transaksi penjualan
+-Pengujian perhitungan diskon
+-Pengujian laporan penjualan
+
+Output: Dokumen test case dan hasil pengujian sistem.
