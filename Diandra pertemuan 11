@@ -1,0 +1,9 @@
+Tahap ini menggunakan Git untuk mengelola perubahan kode dan mendukung kerja tim.
+
+Penerapan pada UMKM SmartFlow:
+-Membuat repository Git
+-Membuat branch fitur
+-Commit perubahan kode
+-Merge hasil pekerjaan anggota tim
+
+Output: Riwayat pengembangan proyek yang rapi dan terdokumentasi.
