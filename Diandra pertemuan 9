@@ -1,0 +1,11 @@
+Pada tahap ini dibuat rancangan database untuk menyimpan seluruh data sistem secara terstruktur
+. Database dirancang menggunakan ERD (Entity Relationship Diagram) dan normalisasi agar tidak terjadi duplikasi data.
+Penerapan pada UMKM SmartFlow:
+-Tabel Produk
+-Tabel Kategori
+-Tabel Pelanggan
+-Tabel Transaksi
+-Tabel Detail Transaksi
+
+Relasi antar tabel menggunakan Primary Key dan Foreign Key
+Output: ERD, Class Diagram, dan rancangan database MySQL.
