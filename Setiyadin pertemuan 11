@@ -1,0 +1,33 @@
+MODUL 11 – VERSION CONTROL DAN KOLABORASI TIM
+A. Tujuan
+Git digunakan untuk mengelola perubahan kode dan mempermudah kerja sama antar anggota tim.
+
+B. Branch yang Digunakan
+git branch main
+git branch frontend
+git branch backend
+git branch database
+
+C. Commit
+git add .
+git commit -m "Membuat halaman login"
+git add .
+git commit -m "Menambahkan fitur pemesanan"
+git add .
+git commit -m "Menambahkan AI Chatbot"
+
+D. Merge
+git checkout main
+git merge frontend
+git merge backend
+git merge database
+
+E. Pembagian Tugas
+| Anggota    | Tugas       |
+| -----------| ----------- |
+| 1 HARIS    | UI/UX       |
+| 2 RULL     | Frontend    |
+| 3 LEO      | Backend     |
+| 4 DIANDRA  | Database    |
+| 5 ATHAR    | Dokumentasi |
+
