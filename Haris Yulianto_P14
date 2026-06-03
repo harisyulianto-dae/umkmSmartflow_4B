@@ -1,0 +1,46 @@
+MODUL 14 – PRESENTASI DAN EVALUASI PROYEK
+A. Profil Proyek
+Nama Sistem:
+SmartFlo UMKM
+Jenis Sistem:
+Sistem Pemesanan Produk UMKM Berbasis AI Chatbot.
+
+B. Tujuan Sistem
+Membantu digitalisasi UMKM.
+Mempermudah pemesanan produk.
+Memberikan rekomendasi produk otomatis.
+Mempermudah pengelolaan pesanan.
+
+C. Demo Sistem
+Fitur yang Ditampilkan
+Login
+Dashboard
+Katalog Produk
+Pemesanan Produk
+AI Chatbot
+Pembayaran
+Dashboard Admin
+
+D. Evaluasi Sistem
+Kesesuaian Kebutuhan
+Sistem telah memenuhi kebutuhan utama pengguna yaitu pencarian produk, pemesanan, pembayaran, dan konsultasi produk.
+Kualitas Desain
+Desain dibuat sederhana, responsif, dan mudah digunakan.
+Kerja Tim
+Setiap anggota memiliki tugas masing-masing sehingga pengembangan berjalan efektif.
+
+E. Kelebihan Sistem
+Mudah digunakan.
+Memiliki AI Chatbot.
+Mendukung pembayaran digital.
+Data tersimpan dalam database.
+
+F. Kekurangan Sistem
+AI masih berbasis aturan sederhana.
+Belum mendukung aplikasi mobile native.
+Belum terintegrasi dengan marketplace.
+
+G. Kesimpulan
+SmartFlo UMKM berhasil dirancang dan dikembangkan menggunakan pendekatan Rekayasa Perangkat Lunak mulai dari analisis kebutuhan hingga pengujian dan evaluasi.
+Sistem mampumembantu proses penjualan UMKM secara digital serta memberikan pengalaman pengguna yang lebih baik melalui fitur AI Chatbot.
+
