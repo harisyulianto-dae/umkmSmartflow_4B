@@ -1,0 +1,19 @@
+Pertemuan 11 – Version Control dan Kolaborasi Tim
+Studi Kasus: Pengelolaan Project dengan GitHub
+Langkah-Langkah
+Membuat Repository.
+Clone Repository.
+Membuat Branch Baru.
+Menambahkan Fitur.
+Commit Perubahan.
+Merge Branch.
+
+peringatan git hub = git init
+git add .
+git commit -m "Menambahkan fitur login"
+git push origin main
+
+Manfaat=
+Backup project.
+Histori perubahan tersimpan.
+Kolaborasi lebih mudah.
