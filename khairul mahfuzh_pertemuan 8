@@ -1,0 +1,120 @@
+Pertemuan 8 – Perancangan Antarmuka (UI/UX)
+Tujuan
+
+Merancang tampilan dan navigasi yang mudah digunakan oleh pengguna pada Sistem Manajemen Tugas Mahasiswa.
+
+Wireframe Minimal 5 Halaman
+1. Halaman Login
+Fungsi
+
+Digunakan untuk masuk ke dalam sistem.
+
+Komponen:
+
+Logo Sistem
+Username
+Password
+Tombol Login
+2. Halaman Dashboard
+Fungsi
+
+Menampilkan menu utama setelah pengguna berhasil login.
+
+Komponen:
+
+Profil Pengguna
+Menu Tambah Tugas
+Menu Daftar Tugas
+Menu Logout
+3. Halaman Tambah Tugas
+Fungsi
+
+Digunakan untuk memasukkan tugas baru.
+
+Komponen:
+
+Judul Tugas
+Deskripsi Tugas
+Deadline
+Tombol Simpan
+Tombol Batal
+4. Halaman Daftar Tugas
+Fungsi
+
+Menampilkan seluruh tugas yang telah dibuat.
+
+Komponen:
+
+Daftar Tugas
+Status Tugas
+Tombol Edit
+Tombol Hapus
+Tombol Cari
+5. Halaman Detail Tugas
+Fungsi
+
+Menampilkan informasi lengkap mengenai tugas yang dipilih.
+
+Komponen:
+
+Judul Tugas
+Deskripsi
+Deadline
+Status
+Tombol Kembali
+Tombol Edit
+Alur Navigasi Sistem
+1. Login
+
+Pengguna membuka aplikasi dan melakukan login menggunakan username dan password.
+
+↓
+
+2. Dashboard
+
+Setelah berhasil login, pengguna masuk ke Dashboard yang berisi menu utama.
+
+↓
+
+3. Tambah Tugas
+
+Pengguna memilih menu Tambah Tugas untuk memasukkan tugas baru.
+
+↓
+
+4. Daftar Tugas
+
+Setelah tugas berhasil disimpan, pengguna dapat melihat seluruh tugas pada halaman Daftar Tugas.
+
+↓
+
+5. Detail Tugas
+
+Pengguna dapat memilih salah satu tugas untuk melihat informasi lebih rinci.
+
+↓
+
+6. Logout
+
+Pengguna keluar dari sistem setelah selesai menggunakan aplikasi.
+
+Prinsip UI/UX yang Diterapkan
+1. Sederhana (Simple)
+
+Tampilan dibuat sederhana agar mudah dipahami oleh mahasiswa.
+
+2. Konsisten (Consistent)
+
+Posisi menu dan tombol dibuat konsisten pada setiap halaman.
+
+3. Mudah Dinavigasi (Easy Navigation)
+
+Pengguna dapat berpindah halaman dengan cepat melalui menu yang tersedia.
+
+4. Responsif (Responsive)
+
+Tampilan dapat digunakan pada laptop maupun smartphone.
+
+5. Informatif
+
+Setiap halaman memberikan informasi yang jelas kepada pengguna.
