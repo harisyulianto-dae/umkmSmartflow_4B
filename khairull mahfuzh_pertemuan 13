@@ -1,0 +1,164 @@
+Pertemuan 13 – Dokumentasi dan Deployment
+Tujuan
+
+Mendokumentasikan seluruh rancangan sistem agar mudah dipahami, digunakan, dipelihara, dan dikembangkan di masa mendatang.
+
+Studi Kasus
+
+Sistem Manajemen Tugas Mahasiswa
+
+1. Dokumentasi Pengguna
+Deskripsi Sistem
+
+Sistem Manajemen Tugas Mahasiswa adalah aplikasi yang digunakan untuk membantu mahasiswa mencatat, mengelola, dan memantau tugas kuliah.
+
+Fitur Sistem
+1. Login
+
+Digunakan untuk masuk ke dalam sistem menggunakan akun yang telah terdaftar.
+
+2. Tambah Tugas
+
+Digunakan untuk menambahkan tugas baru beserta deadline.
+
+3. Lihat Tugas
+
+Digunakan untuk melihat seluruh daftar tugas yang telah disimpan.
+
+4. Logout
+
+Digunakan untuk keluar dari sistem.
+
+Cara Menggunakan Sistem
+Langkah 1: Login
+Masukkan username dan password.
+Klik tombol Login.
+Langkah 2: Menambah Tugas
+Pilih menu Tambah Tugas.
+Isi Judul Tugas.
+Isi Deskripsi Tugas.
+Isi Deadline.
+Klik Simpan.
+Langkah 3: Melihat Tugas
+Pilih menu Daftar Tugas.
+Sistem akan menampilkan seluruh tugas yang tersimpan.
+Langkah 4: Logout
+Klik tombol Logout.
+Sistem akan keluar dari akun pengguna.
+2. Dokumentasi UML
+Use Case Diagram
+Aktor
+Mahasiswa
+Use Case
+Login
+Tambah Tugas
+Lihat Tugas
+Logout
+Activity Diagram
+Proses Tambah Tugas
+Login ke sistem.
+Memilih menu Tambah Tugas.
+Mengisi data tugas.
+Sistem melakukan validasi.
+Data disimpan.
+Sistem menampilkan pesan berhasil.
+Class Diagram
+Class Mahasiswa
+
+Atribut:
+
+id_mahasiswa
+nim
+nama
+email
+password
+
+Method:
+
+login()
+logout()
+Class Tugas
+
+Atribut:
+
+id_tugas
+judul_tugas
+deskripsi
+deadline
+status
+
+Method:
+
+tambahTugas()
+lihatTugas()
+3. Struktur Folder Project
+sistem-manajemen-tugas/
+│
+├── main.py
+├── models/
+│   └── tugas.py
+│
+├── services/
+│   └── tugas_service.py
+│
+├── docs/
+│   ├── usecase.docx
+│   ├── activity.docx
+│   └── classdiagram.docx
+│
+└── README.md
+4. Simulasi Deployment
+
+Deployment adalah proses menempatkan aplikasi agar dapat digunakan oleh pengguna.
+
+Alur Deployment
+Developer
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+Server Hosting
+    │
+    ▼
+Aplikasi Berjalan
+    │
+    ▼
+Mahasiswa Mengakses Sistem
+Langkah Deployment
+1. Upload Project ke GitHub
+git add .
+git commit -m "Release Version 1.0"
+git push origin main
+2. Deploy ke Server
+
+Contoh:
+
+Shared Hosting
+VPS
+Cloud Server
+3. Pengguna Mengakses Sistem
+
+Melalui browser:
+
+http://localhost:8000
+
+atau
+
+https://sistemtugasmahasiswa.com
+5. Rencana Pemeliharaan Sistem
+Corrective Maintenance
+
+Memperbaiki bug yang ditemukan pengguna.
+
+Adaptive Maintenance
+
+Menyesuaikan sistem dengan kebutuhan baru.
+
+Perfective Maintenance
+
+Meningkatkan performa dan tampilan sistem.
+
+Preventive Maintenance
+
+Melakukan backup data dan pembaruan sistem secara berkala.
