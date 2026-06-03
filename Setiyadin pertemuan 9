@@ -1,0 +1,104 @@
+MODUL 9 – PERANCANGAN BASIS DATA
+A. Deskripsi
+Basis data digunakan untuk menyimpan seluruh informasi yang diperlukan oleh sistem SmartFlo UMKM
+seperti data pengguna, produk, pesanan, pembayaran, dan riwayat transaksi. Perancangan basis data dilakukan
+menggunakan ERD dan normalisasi hingga bentuk normal ketiga (3NF).
+
+B. Entity Relationship Diagram (ERD)
+| Atribut      | Tipe Data |
+| ------------ | --------- |
+| id_user (PK) | INT       |
+| nama         | VARCHAR   |
+| email        | VARCHAR   |
+| password     | VARCHAR   |
+| role         | VARCHAR   |
+
+Entitas Produk
+| Atribut        | Tipe Data |
+| -------------- | --------- |
+| id_produk (PK) | INT       |
+| nama_produk    | VARCHAR   |
+| harga          | INT       |
+| stok           | INT       |
+| deskripsi      | TEXT      |
+
+Entitas Pesanan
+| Atribut         | Tipe Data |
+| --------------- | --------- |
+| id_pesanan (PK) | INT       |
+| id_user (FK)    | INT       |
+| tanggal_pesan   | DATE      |
+| total_harga     | INT       |
+| status          | VARCHAR   |
+
+Entitas Detail Pesanan
+| Atribut         | Tipe Data |
+| --------------- | --------- |
+| id_detail (PK)  | INT       |
+| id_pesanan (FK) | INT       |
+| id_produk (FK)  | INT       |
+| jumlah          | INT       |
+| subtotal        | INT       |
+
+Entitas Pembayaran
+| Atribut         | Tipe Data |
+| --------------- | --------- |
+| id_bayar (PK)   | INT       |
+| id_pesanan (FK) | INT       |
+| metode          | VARCHAR   |
+| status_bayar    | VARCHAR   |
+
+C. Relasi Antar Tabel
+User    (1) ----- (N) Pesanan
+Pesanan (1) ----- (N) Detail_Pesanan
+Produk  (1) ----- (N) Detail_Pesanan
+Pesanan (1) ----- (1) Pembayaran
+
+D. Class Diagram
+User
+---
+id_user
+nama
+email
+password
+role
+
++ login()
++ logout()
+
+Produk
+---
+id_produk
+nama_produk
+harga
+stok
+
++ tambahProduk()
++ ubahProduk()
+
+Pesanan
+---
+id_pesanan
+tanggal
+total_harga
+status
+
++ buatPesanan()
++ batalPesanan()
+
+Pembayaran
+---
+id_bayar
+metode
+status_bayar
++ prosesPembayaran()
+
+E. Normalisasi
+1NF
+Setiap atribut memiliki nilai tunggal.
+
+2NF
+Seluruh atribut non-key bergantung penuh pada primary key.
+
+3NF
+Tidak terdapat ketergantungan transitif.
