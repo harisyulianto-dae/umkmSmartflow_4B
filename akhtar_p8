@@ -1,0 +1,16 @@
+Halaman yang dirancang:
+1. Login
+2. Dashboard
+3. Katalog Produk
+4. Form Pemesanan
+5. AI Chatbot
+
+Prinsip UI/UX:
+- Mudah digunakan
+- Tampilan sederhana
+- Responsif
+- Konsisten
+- User Friendly
+
+Alur Navigasi:
+Login → Dashboard → Katalog Produk → Detail Produk → Form Pemesanan → Pembayaran → Konfirmasi
